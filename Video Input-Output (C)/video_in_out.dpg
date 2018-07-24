@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding='ISO-8859-1'?>
+<visualdsp-project-group generated="Mon Jul 30 09:58:14 2007" version="1.0.0.0" active-project="video_in_out">
+	<project name="video_in_out" file=".\Video_INOUT.dpj">
+		<dependencies>
+			<dependent-project>CoreA</dependent-project>
+			<dependent-project>CoreB</dependent-project>
+			<dependent-project>sml2</dependent-project>
+			<dependent-project>sml3</dependent-project>
+		</dependencies>
+	</project>
+	<project name="CoreA" file=".\Core A\CoreA.dpj">
+	</project>
+	<project name="CoreB" file=".\Core B\CoreB.dpj">
+	</project>
+	<project name="sml2" file=".\Shared Memory L2\L2_SRAM.dpj">
+	</project>
+	<project name="sml3" file=".\Shared Memory L3\L3_SDRAM.dpj">
+	</project>
+</visualdsp-project-group>

@@ -1,0 +1,2737 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/VisualDSP/VisualDSP++5.1.2/System/xref.xsl"?>
+<!DOCTYPE DOCUMENT SYSTEM "file:///D:/VisualDSP/VisualDSP++5.1.2/System/xref.dtd">
+<DOCUMENT>
+<LINKPROJECT name="processor 'p0'" id='081944D0' importer_id='081944D0'>
+<OBJECT id='08C5CB18' name='(start, .start.end)' section='LEDButton_basiccrt.doj(program)'>
+<SYMBOL id='09321770' name='start'/>
+<SYMBOL id='09321540' name='still_interrupt_in_ipend'/>
+<SYMBOL id='093210E0' name='supervisor_mode'/>
+<REFERENCE symbol_id='093219F0' symbol='__unknown_exception_occurred'/>
+<REFERENCE symbol_id='093219F0' symbol='__unknown_exception_occurred'/>
+<REFERENCE symbol_id='093210E0' symbol='supervisor_mode'/>
+<REFERENCE symbol_id='093210E0' symbol='supervisor_mode'/>
+<REFERENCE symbol_id='081F9630' symbol='ldf_stack_end'/>
+<REFERENCE symbol_id='081F9630' symbol='ldf_stack_end'/>
+<REFERENCE symbol_id='09322CB0' symbol='__install_default_handlers'/>
+<REFERENCE symbol_id='09322440' symbol='__mc_data_initialise'/>
+<REFERENCE symbol_id='09321540' symbol='still_interrupt_in_ipend'/>
+<REFERENCE symbol_id='09321540' symbol='still_interrupt_in_ipend'/>
+<REFERENCE symbol_id='093227B0' symbol='_init_devtab'/>
+<REFERENCE symbol_id='093223A0' symbol='___ctorloop'/>
+<REFERENCE symbol_id='09322DF0' symbol='__getargv'/>
+<REFERENCE symbol_id='093223F0' symbol='__Argv'/>
+<REFERENCE symbol_id='093223F0' symbol='__Argv'/>
+<REFERENCE symbol_id='09306420' symbol='_main'/>
+<REFERENCE symbol_id='09306330' symbol='_exit'/>
+</OBJECT>
+<OBJECT id='09438A18' name='(__unknown_exception_occurred, .__unknown_exception_occurred.end)' section='libevent561y.dlb[unknownex.doj](program)'>
+<SYMBOL id='093219F0' name='__unknown_exception_occurred'/>
+<REFERENCE symbol_id='09306A10' symbol='_adi_fatal_exception'/>
+</OBJECT>
+<OBJECT id='09439218' name='(_adi_fatal_exception, ._adi_fatal_exception.end)' section='libc561y.dlb[adi_fatal_exception.doj](program)'>
+<SYMBOL id='09306A10' name='_adi_fatal_exception'/>
+<SYMBOL id='09306920' name='__fatal_exception'/>
+<REFERENCE symbol_id='0945A328' symbol='_adi_fatal_error_general_code'/>
+<REFERENCE symbol_id='0945A328' symbol='_adi_fatal_error_general_code'/>
+<REFERENCE symbol_id='0945A198' symbol='_adi_fatal_error_specific_code'/>
+<REFERENCE symbol_id='0945A198' symbol='_adi_fatal_error_specific_code'/>
+<REFERENCE symbol_id='0945A378' symbol='_adi_fatal_error_value'/>
+<REFERENCE symbol_id='0945A378' symbol='_adi_fatal_error_value'/>
+<REFERENCE symbol_id='0945A468' symbol='_adi_fatal_error_pc'/>
+<REFERENCE symbol_id='0945A468' symbol='_adi_fatal_error_pc'/>
+<REFERENCE symbol_id='09306920' symbol='__fatal_exception'/>
+</OBJECT>
+<OBJECT id='0943A5B8' name='(.epcdata, .epcdata.end)' section='libc561y.dlb[adi_fatal_data.doj](data1)'>
+<SYMBOL id='0945A328' name='_adi_fatal_error_general_code'/>
+<SYMBOL id='0945A198' name='_adi_fatal_error_specific_code'/>
+<SYMBOL id='0945A378' name='_adi_fatal_error_value'/>
+<SYMBOL id='0945A468' name='_adi_fatal_error_pc'/>
+</OBJECT>
+<OBJECT id='09438C38' name='(__install_default_handlers, .__install_default_handlers.end)' section='libevent561y.dlb[defhdlrs.doj](program)'>
+<SYMBOL id='09322CB0' name='__install_default_handlers'/>
+</OBJECT>
+<OBJECT id='09438918' name='(__mc_data_initialise, .__mc_data_initialise.end)' section='libc561y.dlb[mc_data_init.doj](program)'>
+<SYMBOL id='09322440' name='__mc_data_initialise'/>
+</OBJECT>
+<OBJECT id='094388D8' name='(_init_devtab, ._init_devtab.end)' section='libio561y.dlb[dev_init_dummy.doj](program)'>
+<SYMBOL id='093227B0' name='_init_devtab'/>
+</OBJECT>
+<OBJECT id='09438AF8' name='(___ctorloop, .___ctorloop.end)' section='libcpp561y.dlb[ctorloop.doj](program)'>
+<SYMBOL id='093223A0' name='___ctorloop'/>
+<REFERENCE symbol_id='09322A80' symbol='_list_ctor'/>
+<REFERENCE symbol_id='09322A80' symbol='_list_ctor'/>
+</OBJECT>
+<OBJECT id='09438AB8' name='(.epcdata, .epcdata.end)' section='libcpp561y.dlb[ctorloop.doj](data1)'>
+<SYMBOL id='09322A80' name='_list_ctor'/>
+<REFERENCE symbol_id='09320780' symbol='___ctor_table'/>
+</OBJECT>
+<OBJECT id='09438E18' name='(__getargv, .__getargv.end)' section='librt_fileio561y.dlb[getargv.doj](program)'>
+<SYMBOL id='09322DF0' name='__getargv'/>
+<REFERENCE symbol_id='093067E0' symbol='___argv_string'/>
+<REFERENCE symbol_id='093067E0' symbol='___argv_string'/>
+<REFERENCE symbol_id='093223F0' symbol='__Argv'/>
+<REFERENCE symbol_id='093223F0' symbol='__Argv'/>
+</OBJECT>
+<OBJECT id='09439498' name='(___argv_string, ___argv_string+0x1)' section='librt_fileio561y.dlb[argstring.doj](data1)'>
+<SYMBOL id='093067E0' name='___argv_string'/>
+</OBJECT>
+<OBJECT id='09438C98' name='(__Argv, .__Argv.end)' section='librt_fileio561y.dlb[getargv.doj](bsz)'>
+<SYMBOL id='093223F0' name='__Argv'/>
+</OBJECT>
+<OBJECT id='094393B8' name='(_main, ._main.end)' section='corea.dlb[LEDButton.doj](program)'>
+<SYMBOL id='09306420' name='_main'/>
+<REFERENCE symbol_id='09462668' symbol='_ezInit'/>
+<REFERENCE symbol_id='093240B0' symbol='_IntMgrData'/>
+<REFERENCE symbol_id='093240B0' symbol='_IntMgrData'/>
+<REFERENCE symbol_id='0946C4D8' symbol='_adi_int_Init'/>
+<REFERENCE symbol_id='09462B18' symbol='_ezErrorCheck'/>
+<REFERENCE symbol_id='09323B10' symbol='_FlagServiceData'/>
+<REFERENCE symbol_id='09323B10' symbol='_FlagServiceData'/>
+<REFERENCE symbol_id='09456A48' symbol='_adi_flag_Init'/>
+<REFERENCE symbol_id='09462B18' symbol='_ezErrorCheck'/>
+<REFERENCE symbol_id='094626B8' symbol='_ezInitButton'/>
+<REFERENCE symbol_id='09462398' symbol='_ezInitLED'/>
+<REFERENCE symbol_id='09306240' symbol='_PolledPushButtons'/>
+<REFERENCE symbol_id='09458B68' symbol='_Init1836'/>
+<REFERENCE symbol_id='094588E8' symbol='_Init_Sport0'/>
+<REFERENCE symbol_id='09458898' symbol='_Init_DMA'/>
+<REFERENCE symbol_id='094589D8' symbol='_Init_Sport_Interrupts'/>
+<REFERENCE symbol_id='094587A8' symbol='_Init_FFT'/>
+<REFERENCE symbol_id='09458C58' symbol='_Enable_DMA_Sport0'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='09458F78' symbol='_compute_dct'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='09322D00' symbol='_Train'/>
+<REFERENCE symbol_id='09322D00' symbol='_Train'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='09322D00' symbol='_Train'/>
+<REFERENCE symbol_id='09322D00' symbol='_Train'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09323160' symbol='_choose'/>
+<REFERENCE symbol_id='09323160' symbol='_choose'/>
+<REFERENCE symbol_id='0945A7D8' symbol='_save_example'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+</OBJECT>
+<OBJECT id='094397D8' name='(_ezInit, ._ezInit.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462668' name='_ezInit'/>
+<REFERENCE symbol_id='09462898' symbol='_ezInitPower'/>
+</OBJECT>
+<OBJECT id='09439738' name='(_ezInitPower, ._ezInitPower.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462898' name='_ezInitPower'/>
+<SYMBOL id='094622F8' name='__BEGIN__.P57L12L'/>
+<SYMBOL id='09462B68' name='__END__.P57L12L'/>
+<REFERENCE symbol_id='094622F8' symbol='__BEGIN__.P57L12L'/>
+<REFERENCE symbol_id='094E1900' symbol='_adi_ebiu_Init'/>
+<REFERENCE symbol_id='09462B18' symbol='_ezErrorCheck'/>
+<REFERENCE symbol_id='095468F8' symbol='_adi_pwr_Init'/>
+<REFERENCE symbol_id='09462B18' symbol='_ezErrorCheck'/>
+<REFERENCE symbol_id='095466C8' symbol='_adi_pwr_SetMaxFreqForVolt'/>
+<REFERENCE symbol_id='09462B18' symbol='_ezErrorCheck'/>
+</OBJECT>
+<OBJECT id='09439458' name='(.static0, .static0.end)' section='corea.dlb[ezkitutilities.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943A958' name='(_adi_ebiu_Init, ._adi_ebiu_Init.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1900' name='_adi_ebiu_Init'/>
+<REFERENCE symbol_id='094E1770' symbol='_adi_ebiu_SetInitFlag'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945ADC8' symbol='_AMC_cmd_count'/>
+<REFERENCE symbol_id='0945ADC8' symbol='_AMC_cmd_count'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='094E1CC0' symbol='_adi_ebiu_set_ezkit_values'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='094E1A40' symbol='_adi_ebiu_set_sdram_values'/>
+<REFERENCE symbol_id='094E1A40' symbol='_adi_ebiu_set_sdram_values'/>
+<REFERENCE symbol_id='094E1A40' symbol='_adi_ebiu_set_sdram_values'/>
+<REFERENCE symbol_id='094E1A40' symbol='_adi_ebiu_set_sdram_values'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='094E1680' symbol='_adi_ebiu_SetLockVarPointer'/>
+<REFERENCE symbol_id='0945AE18' symbol='__adi_ebiu_ControlCalledFromInit'/>
+<REFERENCE symbol_id='0945AE18' symbol='__adi_ebiu_ControlCalledFromInit'/>
+<REFERENCE symbol_id='094E1D10' symbol='_adi_ebiu_Control'/>
+<REFERENCE symbol_id='0945AE18' symbol='__adi_ebiu_ControlCalledFromInit'/>
+<REFERENCE symbol_id='0945AE18' symbol='__adi_ebiu_ControlCalledFromInit'/>
+<REFERENCE symbol_id='094E1D10' symbol='_adi_ebiu_Control'/>
+<REFERENCE symbol_id='094E1B30' symbol='_adi_ebiuSetAsynchRegsForBanks'/>
+<REFERENCE symbol_id='094E1B30' symbol='_adi_ebiuSetAsynchRegsForBanks'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='094E1D60' symbol='_adi_ebiu_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='094E1D60' symbol='_adi_ebiu_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='0946C708' symbol='_adi_int_CECHook'/>
+<REFERENCE symbol_id='0946C848' symbol='_adi_int_SICSetIVG'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='0946C7A8' symbol='_adi_int_SICEnable'/>
+<REFERENCE symbol_id='09537998' symbol='_adi_ebiu_ApplyAMConfig'/>
+</OBJECT>
+<OBJECT id='0943A998' name='(_adi_ebiu_SetInitFlag, ._adi_ebiu_SetInitFlag.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1770' name='_adi_ebiu_SetInitFlag'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+</OBJECT>
+<OBJECT id='0943A7B8' name='(_adi_ebiu_settings, ._adi_ebiu_settings.end)' section='libssl561y.dlb[adi_ebiu.doj](bsz)'>
+<SYMBOL id='0945A828' name='_adi_ebiu_settings'/>
+</OBJECT>
+<OBJECT id='0943A638' name='(.epcdata, .epcdata.end)' section='libssl561y.dlb[adi_ebiu.doj](data1)'>
+<SYMBOL id='0945AE18' name='__adi_ebiu_ControlCalledFromInit'/>
+<SYMBOL id='0945ADC8' name='_AMC_cmd_count'/>
+<SYMBOL id='0945ABE8' name='_RecursiveControlEntry'/>
+<SYMBOL id='0945B048' name='_cmd_count'/>
+<SYMBOL id='0945AF08' name='_apply_config'/>
+</OBJECT>
+<OBJECT id='0943A598' name='(.SWITCH.8, .SWITCH.8.end)' section='libssl561y.dlb[adi_ebiu.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943A9B8' name='(_adi_ebiu_set_ezkit_values, ._adi_ebiu_set_ezkit_values.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1CC0' name='_adi_ebiu_set_ezkit_values'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='094E1A40' symbol='_adi_ebiu_set_sdram_values'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+</OBJECT>
+<OBJECT id='0943AB78' name='(_adi_ebiu_set_sdram_values, ._adi_ebiu_set_sdram_values.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1A40' name='_adi_ebiu_set_sdram_values'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+</OBJECT>
+<OBJECT id='0943A858' name='(.SWITCH.0, .SWITCH.0.end)' section='libssl561y.dlb[adi_ebiu.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943AA18' name='(_adi_ebiu_SetLockVarPointer, ._adi_ebiu_SetLockVarPointer.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1680' name='_adi_ebiu_SetLockVarPointer'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+</OBJECT>
+<OBJECT id='0943A8F8' name='(_adi_ebiu_Control, ._adi_ebiu_Control.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1D10' name='_adi_ebiu_Control'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945ABE8' symbol='_RecursiveControlEntry'/>
+<REFERENCE symbol_id='0945ABE8' symbol='_RecursiveControlEntry'/>
+<REFERENCE symbol_id='0945B048' symbol='_cmd_count'/>
+<REFERENCE symbol_id='0945B048' symbol='_cmd_count'/>
+<REFERENCE symbol_id='0945B048' symbol='_cmd_count'/>
+<REFERENCE symbol_id='0945B048' symbol='_cmd_count'/>
+<REFERENCE symbol_id='0945AF08' symbol='_apply_config'/>
+<REFERENCE symbol_id='0945AF08' symbol='_apply_config'/>
+<REFERENCE symbol_id='094E1D10' symbol='_adi_ebiu_Control'/>
+<REFERENCE symbol_id='094E1D10' symbol='_adi_ebiu_Control'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09537AD8' symbol='_adi_ebiu_SelfRefreshEnable'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954A778' symbol='___memmove2'/>
+<REFERENCE symbol_id='094E1B80' symbol='_adi_ebiuSetAsynchTimingReg'/>
+<REFERENCE symbol_id='0954A778' symbol='___memmove2'/>
+<REFERENCE symbol_id='094E1B80' symbol='_adi_ebiuSetAsynchTimingReg'/>
+<REFERENCE symbol_id='0954A778' symbol='___memmove2'/>
+<REFERENCE symbol_id='094E1B80' symbol='_adi_ebiuSetAsynchTimingReg'/>
+<REFERENCE symbol_id='0954A778' symbol='___memmove2'/>
+<REFERENCE symbol_id='094E1B80' symbol='_adi_ebiuSetAsynchTimingReg'/>
+<REFERENCE symbol_id='0954A778' symbol='___memmove2'/>
+<REFERENCE symbol_id='094E1B80' symbol='_adi_ebiuSetAsynchTimingReg'/>
+<REFERENCE symbol_id='0945AE18' symbol='__adi_ebiu_ControlCalledFromInit'/>
+<REFERENCE symbol_id='0945AE18' symbol='__adi_ebiu_ControlCalledFromInit'/>
+<REFERENCE symbol_id='0945B048' symbol='_cmd_count'/>
+<REFERENCE symbol_id='0945B048' symbol='_cmd_count'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='095374E8' symbol='_adi_ebiu_ApplyConfig'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+<REFERENCE symbol_id='0945ADC8' symbol='_AMC_cmd_count'/>
+<REFERENCE symbol_id='0945ADC8' symbol='_AMC_cmd_count'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09537998' symbol='_adi_ebiu_ApplyAMConfig'/>
+</OBJECT>
+<OBJECT id='0943A818' name='(.SWITCH.7, .SWITCH.7.end)' section='libssl561y.dlb[adi_ebiu.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943A898' name='(.SWITCH.6, .SWITCH.6.end)' section='libssl561y.dlb[adi_ebiu.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943BEB8' name='(_adi_ebiu_SelfRefreshEnable, ._adi_ebiu_SelfRefreshEnable.end)' section='libssl561y.dlb[adi_ebiu_asm.doj](program)'>
+<SYMBOL id='09537AD8' name='_adi_ebiu_SelfRefreshEnable'/>
+</OBJECT>
+<OBJECT id='0943B838' name='(___memmove2, .___memmove2.end)' section='librt_fileio561y.dlb[_memmove2.doj](program)'>
+<SYMBOL id='0954A778' name='___memmove2'/>
+</OBJECT>
+<OBJECT id='0943A6F8' name='(_adi_ebiuSetAsynchTimingReg, ._adi_ebiuSetAsynchTimingReg.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1B80' name='_adi_ebiuSetAsynchTimingReg'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='094E1B30' symbol='_adi_ebiuSetAsynchRegsForBanks'/>
+</OBJECT>
+<OBJECT id='0943B798' name='(___div_u32, .___div_u32.end)' section='libdsp561y.dlb[div_u32.doj](program)'>
+<SYMBOL id='0954B3A8' name='___div_u32'/>
+<SYMBOL id='0954B2B8' name='___udiv32'/>
+<SYMBOL id='0954AAE8' name='__BEGIN__.quick_loop'/>
+<SYMBOL id='0954B358' name='__END__.quick_loop'/>
+<SYMBOL id='0954B308' name='__BEGIN__.full_loop'/>
+<SYMBOL id='0954B038' name='__END__.full_loop'/>
+<REFERENCE symbol_id='0954AAE8' symbol='__BEGIN__.quick_loop'/>
+<REFERENCE symbol_id='0954B308' symbol='__BEGIN__.full_loop'/>
+</OBJECT>
+<OBJECT id='0943A5F8' name='(_adi_ebiuSetAsynchRegsForBanks, ._adi_ebiuSetAsynchRegsForBanks.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1B30' name='_adi_ebiuSetAsynchRegsForBanks'/>
+<REFERENCE symbol_id='094E1630' symbol='_adi_ebiuSetAsynchReg'/>
+<REFERENCE symbol_id='094E1630' symbol='_adi_ebiuSetAsynchReg'/>
+</OBJECT>
+<OBJECT id='0943A4D8' name='(_adi_ebiuSetAsynchReg, ._adi_ebiuSetAsynchReg.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1630' name='_adi_ebiuSetAsynchReg'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945ADC8' symbol='_AMC_cmd_count'/>
+<REFERENCE symbol_id='0945ADC8' symbol='_AMC_cmd_count'/>
+</OBJECT>
+<OBJECT id='0943B438' name='(_adi_pwr_SyncCoreB, ._adi_pwr_SyncCoreB.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546998' name='_adi_pwr_SyncCoreB'/>
+</OBJECT>
+<OBJECT id='0943BD38' name='(_adi_ebiu_ApplyConfig, ._adi_ebiu_ApplyConfig.end)' section='libssl561y.dlb[adi_ebiu_asm.doj](L1_code)'>
+<SYMBOL id='095374E8' name='_adi_ebiu_ApplyConfig'/>
+<SYMBOL id='09537448' name='loop_top'/>
+<REFERENCE symbol_id='09537448' symbol='loop_top'/>
+</OBJECT>
+<OBJECT id='0943AED8' name='(_adi_pwr_ReleaseCoreB, ._adi_pwr_ReleaseCoreB.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546BC8' name='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943BE18' name='(_adi_ebiu_ApplyAMConfig, ._adi_ebiu_ApplyAMConfig.end)' section='libssl561y.dlb[adi_ebiu_asm.doj](L1_code)'>
+<SYMBOL id='09537998' name='_adi_ebiu_ApplyAMConfig'/>
+</OBJECT>
+<OBJECT id='0943A978' name='(_adi_ebiu_CoreBSuppInt0Handler, ._adi_ebiu_CoreBSuppInt0Handler.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1D60' name='_adi_ebiu_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='09537628' symbol='_adi_ebiu_SyncCoreA'/>
+</OBJECT>
+<OBJECT id='0943BD98' name='(_adi_ebiu_SyncCoreA, ._adi_ebiu_SyncCoreA.end)' section='libssl561y.dlb[adi_ebiu_asm.doj](L1_code)'>
+<SYMBOL id='09537628' name='_adi_ebiu_SyncCoreA'/>
+<SYMBOL id='09537948' name='_adi_ebiu_SyncCoreA.exit'/>
+<REFERENCE symbol_id='09537948' symbol='_adi_ebiu_SyncCoreA.exit'/>
+<REFERENCE symbol_id='09538AC8' symbol='_adi_pwr_acquire_lock'/>
+</OBJECT>
+<OBJECT id='0943C418' name='(_adi_pwr_acquire_lock, ._adi_pwr_acquire_lock.end)' section='libssl561y.dlb[adi_pwr_asm.doj](L1_code)'>
+<SYMBOL id='09538AC8' name='_adi_pwr_acquire_lock'/>
+</OBJECT>
+<OBJECT id='094399F8' name='(_adi_int_CECHook, ._adi_int_CECHook.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C708' name='_adi_int_CECHook'/>
+<REFERENCE symbol_id='0946C938' symbol='_ValidateInterruptManager'/>
+<REFERENCE symbol_id='0946C618' symbol='_CheckIVG'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='09463298' symbol='_adi_int_NestingISR_Table'/>
+<REFERENCE symbol_id='09463298' symbol='_adi_int_NestingISR_Table'/>
+<REFERENCE symbol_id='09463478' symbol='_adi_int_NonNestingISR_Table'/>
+<REFERENCE symbol_id='09463478' symbol='_adi_int_NonNestingISR_Table'/>
+<REFERENCE symbol_id='0946C8E8' symbol='_adi_int_SetIMaskBits'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439BB8' name='(_ValidateInterruptManager, ._ValidateInterruptManager.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C938' name='_ValidateInterruptManager'/>
+</OBJECT>
+<OBJECT id='09439958' name='(_CheckIVG, ._CheckIVG.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C618' name='_CheckIVG'/>
+</OBJECT>
+<OBJECT id='094399B8' name='(_adi_int_InstanceData, ._adi_int_InstanceData.end)' section='libssl561y.dlb[adi_int.doj](bsz)'>
+<SYMBOL id='09462FC8' name='_adi_int_InstanceData'/>
+</OBJECT>
+<OBJECT id='09439BD8' name='(_adi_int_EnterCriticalRegion, ._adi_int_EnterCriticalRegion.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C528' name='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+</OBJECT>
+<OBJECT id='09439A58' name='(_CriticalRegionUsageCount, _CriticalRegionUsageCount+0x4)' section='libssl561y.dlb[adi_int.doj](data1)'>
+<SYMBOL id='09463068' name='_CriticalRegionUsageCount'/>
+</OBJECT>
+<OBJECT id='09439AB8' name='(_SavedIMask, _SavedIMask+0x4)' section='libssl561y.dlb[adi_int.doj](bsz)'>
+<SYMBOL id='09462F78' name='_SavedIMask'/>
+</OBJECT>
+<OBJECT id='094399D8' name='(_adi_int_NestingISR_Table, ._adi_int_NestingISR_Table.end)' section='libssl561y.dlb[adi_int.doj](data1)'>
+<SYMBOL id='09463298' name='_adi_int_NestingISR_Table'/>
+<REFERENCE symbol_id='09549918' symbol='_adi_int_NestingISR_IVG0'/>
+<REFERENCE symbol_id='09549878' symbol='_adi_int_NestingISR_IVG1'/>
+<REFERENCE symbol_id='09549FA8' symbol='_adi_int_NestingISR_IVG2'/>
+<REFERENCE symbol_id='095495F8' symbol='_adi_int_NestingISR_IVG3'/>
+<REFERENCE symbol_id='09549648' symbol='_adi_int_NestingISR_IVG4'/>
+<REFERENCE symbol_id='09549698' symbol='_adi_int_NestingISR_IVG5'/>
+<REFERENCE symbol_id='09549A08' symbol='_adi_int_NestingISR_IVG6'/>
+<REFERENCE symbol_id='09549BE8' symbol='_adi_int_NestingISR_IVG7'/>
+<REFERENCE symbol_id='09549AF8' symbol='_adi_int_NestingISR_IVG8'/>
+<REFERENCE symbol_id='095496E8' symbol='_adi_int_NestingISR_IVG9'/>
+<REFERENCE symbol_id='09549D28' symbol='_adi_int_NestingISR_IVG10'/>
+<REFERENCE symbol_id='09549C88' symbol='_adi_int_NestingISR_IVG11'/>
+<REFERENCE symbol_id='09549B98' symbol='_adi_int_NestingISR_IVG12'/>
+<REFERENCE symbol_id='09549A58' symbol='_adi_int_NestingISR_IVG13'/>
+<REFERENCE symbol_id='09549E18' symbol='_adi_int_NestingISR_IVG14'/>
+<REFERENCE symbol_id='09549AA8' symbol='_adi_int_NestingISR_IVG15'/>
+</OBJECT>
+<OBJECT id='0943B858' name='(.adi_int_isrblock, .adi_int_isrblock.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='09549918' name='_adi_int_NestingISR_IVG0'/>
+<SYMBOL id='09549878' name='_adi_int_NestingISR_IVG1'/>
+<SYMBOL id='09549FA8' name='_adi_int_NestingISR_IVG2'/>
+<SYMBOL id='095495F8' name='_adi_int_NestingISR_IVG3'/>
+<SYMBOL id='09549648' name='_adi_int_NestingISR_IVG4'/>
+<SYMBOL id='09549698' name='_adi_int_NestingISR_IVG5'/>
+<SYMBOL id='09549A08' name='_adi_int_NestingISR_IVG6'/>
+<SYMBOL id='09549BE8' name='_adi_int_NestingISR_IVG7'/>
+<SYMBOL id='09549AF8' name='_adi_int_NestingISR_IVG8'/>
+<SYMBOL id='095496E8' name='_adi_int_NestingISR_IVG9'/>
+<SYMBOL id='09549D28' name='_adi_int_NestingISR_IVG10'/>
+<SYMBOL id='09549C88' name='_adi_int_NestingISR_IVG11'/>
+<SYMBOL id='09549B98' name='_adi_int_NestingISR_IVG12'/>
+<SYMBOL id='09549A58' name='_adi_int_NestingISR_IVG13'/>
+<SYMBOL id='09549E18' name='_adi_int_NestingISR_IVG14'/>
+<SYMBOL id='09549AA8' name='_adi_int_NestingISR_IVG15'/>
+<SYMBOL id='095499B8' name='_adi_int_NonNestingISR_IVG0'/>
+<SYMBOL id='095497D8' name='_adi_int_NonNestingISR_IVG1'/>
+<SYMBOL id='0954A958' name='_adi_int_NonNestingISR_IVG2'/>
+<SYMBOL id='0954A368' name='_adi_int_NonNestingISR_IVG3'/>
+<SYMBOL id='0954A458' name='_adi_int_NonNestingISR_IVG4'/>
+<SYMBOL id='0954A548' name='_adi_int_NonNestingISR_IVG5'/>
+<SYMBOL id='0954A9A8' name='_adi_int_NonNestingISR_IVG6'/>
+<SYMBOL id='0954A4A8' name='_adi_int_NonNestingISR_IVG7'/>
+<SYMBOL id='0954A4F8' name='_adi_int_NonNestingISR_IVG8'/>
+<SYMBOL id='09549FF8' name='_adi_int_NonNestingISR_IVG9'/>
+<SYMBOL id='09549828' name='_adi_int_NonNestingISR_IVG10'/>
+<SYMBOL id='09549CD8' name='_adi_int_NonNestingISR_IVG11'/>
+<SYMBOL id='095498C8' name='_adi_int_NonNestingISR_IVG12'/>
+<SYMBOL id='09549968' name='_adi_int_NonNestingISR_IVG13'/>
+<SYMBOL id='0954A408' name='_adi_int_NonNestingISR_IVG14'/>
+<SYMBOL id='0954A3B8' name='_adi_int_NonNestingISR_IVG15'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549C38' symbol='_adi_int_NestingNMI'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F08' symbol='_adi_int_NestingEXC'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549F58' symbol='_adi_int_NestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0954A048' symbol='_adi_int_NonNestingNMI'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549788' symbol='_adi_int_NonNestingEXC'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09549B48' symbol='_adi_int_NonNestingISR'/>
+</OBJECT>
+<OBJECT id='0943B158' name='(_adi_int_NestingISR, ._adi_int_NestingISR.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='09549F58' name='_adi_int_NestingISR'/>
+</OBJECT>
+<OBJECT id='0943B238' name='(_adi_int_NestingNMI, ._adi_int_NestingNMI.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='09549C38' name='_adi_int_NestingNMI'/>
+</OBJECT>
+<OBJECT id='0943B498' name='(_adi_int_NestingEXC, ._adi_int_NestingEXC.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='09549F08' name='_adi_int_NestingEXC'/>
+<SYMBOL id='09549738' name='_adi_int_NestingEXC_skip_05_000_283'/>
+<REFERENCE symbol_id='09549738' symbol='_adi_int_NestingEXC_skip_05_000_283'/>
+</OBJECT>
+<OBJECT id='0943B2D8' name='(_adi_int_NonNestingISR, ._adi_int_NonNestingISR.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='09549B48' name='_adi_int_NonNestingISR'/>
+</OBJECT>
+<OBJECT id='0943B6B8' name='(_adi_int_NonNestingNMI, ._adi_int_NonNestingNMI.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='0954A048' name='_adi_int_NonNestingNMI'/>
+</OBJECT>
+<OBJECT id='0943B2B8' name='(_adi_int_NonNestingEXC, ._adi_int_NonNestingEXC.end)' section='libssl561y.dlb[adi_int_asm.doj](program)'>
+<SYMBOL id='09549788' name='_adi_int_NonNestingEXC'/>
+<SYMBOL id='09549DC8' name='_adi_int_NonNestingEXC_skip_05_000_283'/>
+<REFERENCE symbol_id='09549DC8' symbol='_adi_int_NonNestingEXC_skip_05_000_283'/>
+</OBJECT>
+<OBJECT id='09439AD8' name='(_adi_int_NonNestingISR_Table, ._adi_int_NonNestingISR_Table.end)' section='libssl561y.dlb[adi_int.doj](data1)'>
+<SYMBOL id='09463478' name='_adi_int_NonNestingISR_Table'/>
+<REFERENCE symbol_id='095499B8' symbol='_adi_int_NonNestingISR_IVG0'/>
+<REFERENCE symbol_id='095497D8' symbol='_adi_int_NonNestingISR_IVG1'/>
+<REFERENCE symbol_id='0954A958' symbol='_adi_int_NonNestingISR_IVG2'/>
+<REFERENCE symbol_id='0954A368' symbol='_adi_int_NonNestingISR_IVG3'/>
+<REFERENCE symbol_id='0954A458' symbol='_adi_int_NonNestingISR_IVG4'/>
+<REFERENCE symbol_id='0954A548' symbol='_adi_int_NonNestingISR_IVG5'/>
+<REFERENCE symbol_id='0954A9A8' symbol='_adi_int_NonNestingISR_IVG6'/>
+<REFERENCE symbol_id='0954A4A8' symbol='_adi_int_NonNestingISR_IVG7'/>
+<REFERENCE symbol_id='0954A4F8' symbol='_adi_int_NonNestingISR_IVG8'/>
+<REFERENCE symbol_id='09549FF8' symbol='_adi_int_NonNestingISR_IVG9'/>
+<REFERENCE symbol_id='09549828' symbol='_adi_int_NonNestingISR_IVG10'/>
+<REFERENCE symbol_id='09549CD8' symbol='_adi_int_NonNestingISR_IVG11'/>
+<REFERENCE symbol_id='095498C8' symbol='_adi_int_NonNestingISR_IVG12'/>
+<REFERENCE symbol_id='09549968' symbol='_adi_int_NonNestingISR_IVG13'/>
+<REFERENCE symbol_id='0954A408' symbol='_adi_int_NonNestingISR_IVG14'/>
+<REFERENCE symbol_id='0954A3B8' symbol='_adi_int_NonNestingISR_IVG15'/>
+</OBJECT>
+<OBJECT id='09439C58' name='(_adi_int_SetIMaskBits, ._adi_int_SetIMaskBits.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C8E8' name='_adi_int_SetIMaskBits'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439C78' name='(_adi_int_ExitCriticalRegion, ._adi_int_ExitCriticalRegion.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C438' name='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+</OBJECT>
+<OBJECT id='09439918' name='(_adi_int_SICSetIVG, ._adi_int_SICSetIVG.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C848' name='_adi_int_SICSetIVG'/>
+<REFERENCE symbol_id='0946CC58' symbol='_CheckPeripheralID'/>
+<REFERENCE symbol_id='0946C618' symbol='_CheckIVG'/>
+</OBJECT>
+<OBJECT id='09439C98' name='(_CheckPeripheralID, ._CheckPeripheralID.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946CC58' name='_CheckPeripheralID'/>
+</OBJECT>
+<OBJECT id='09439C38' name='(_adi_int_SICWakeup, ._adi_int_SICWakeup.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946CBB8' name='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='0946CC58' symbol='_CheckPeripheralID'/>
+</OBJECT>
+<OBJECT id='09439B58' name='(_adi_int_SICEnable, ._adi_int_SICEnable.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C7A8' name='_adi_int_SICEnable'/>
+<REFERENCE symbol_id='0946CC58' symbol='_CheckPeripheralID'/>
+</OBJECT>
+<OBJECT id='094395D8' name='(_ezErrorCheck, ._ezErrorCheck.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462B18' name='_ezErrorCheck'/>
+<REFERENCE symbol_id='094629D8' symbol='_ezCycleLEDs'/>
+</OBJECT>
+<OBJECT id='094395B8' name='(_ezCycleLEDs, ._ezCycleLEDs.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094629D8' name='_ezCycleLEDs'/>
+<REFERENCE symbol_id='09306510' symbol='_LEDEnables'/>
+<REFERENCE symbol_id='09306510' symbol='_LEDEnables'/>
+<REFERENCE symbol_id='09306470' symbol='_CycleDisplay.0'/>
+<REFERENCE symbol_id='09306470' symbol='_CycleDisplay.0'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='09439598' name='(.epcbss, .epcbss.end)' section='corea.dlb[ezkitutilities.doj](bsz)'>
+<SYMBOL id='093064C0' name='_LEDDisplay'/>
+<SYMBOL id='09306510' name='_LEDEnables'/>
+<SYMBOL id='09306470' name='_CycleDisplay.0'/>
+</OBJECT>
+<OBJECT id='09439538' name='(_ezSetDisplay, ._ezSetDisplay.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094627F8' name='_ezSetDisplay'/>
+<REFERENCE symbol_id='09306510' symbol='_LEDEnables'/>
+<REFERENCE symbol_id='09306510' symbol='_LEDEnables'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='09306880' symbol='_ezLEDToFlag'/>
+<REFERENCE symbol_id='09306880' symbol='_ezLEDToFlag'/>
+<REFERENCE symbol_id='094564F8' symbol='_adi_flag_Set'/>
+<REFERENCE symbol_id='09306880' symbol='_ezLEDToFlag'/>
+<REFERENCE symbol_id='09306880' symbol='_ezLEDToFlag'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+</OBJECT>
+<OBJECT id='09439878' name='(_ezLEDToFlag, ._ezLEDToFlag.end)' section='corea.dlb[ezkitutilities.doj](data1)'>
+<SYMBOL id='09306880' name='_ezLEDToFlag'/>
+</OBJECT>
+<OBJECT id='09439E78' name='(_adi_flag_Set, ._adi_flag_Set.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='094564F8' name='_adi_flag_Set'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+</OBJECT>
+<OBJECT id='09439EB8' name='(_adi_flag_ValidateFlagID, ._adi_flag_ValidateFlagID.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456868' name='_adi_flag_ValidateFlagID'/>
+</OBJECT>
+<OBJECT id='09439FB8' name='(_PortInfo, ._PortInfo.end)' section='libssl561y.dlb[adi_flag.doj](constdata)'>
+<SYMBOL id='0946D0B8' name='_PortInfo'/>
+</OBJECT>
+<OBJECT id='09439EF8' name='(_adi_flag_Clear, ._adi_flag_Clear.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456638' name='_adi_flag_Clear'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+</OBJECT>
+<OBJECT id='0943AE58' name='(_adi_pwr_Init, ._adi_pwr_Init.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095468F8' name='_adi_pwr_Init'/>
+<REFERENCE symbol_id='095464E8' symbol='_adi_pwr_SetInitFlag'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0946C668' symbol='_adi_int_SICGetIVG'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0946C668' symbol='_adi_int_SICGetIVG'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09539978' symbol='_adi_pwr_lockvar'/>
+<REFERENCE symbol_id='09539978' symbol='_adi_pwr_lockvar'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09538BB8' symbol='___spswitch32'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546948' symbol='_adi_pwr_set_ezkit_values'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546858' symbol='_adi_pwr_SetVoltageRegulator'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546628' symbol='_adi_pwr_Control'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2C60' symbol='_pll_lockcnt_mmr'/>
+<REFERENCE symbol_id='094E2C60' symbol='_pll_lockcnt_mmr'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='09546B28' symbol='_adi_pwr_SetLockVarPointer'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='095459F8' symbol='_adi_pwr_ApplyConfig'/>
+<REFERENCE symbol_id='095463F8' symbol='_adi_pwr_GetSCLK'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E26C0' symbol='_adi_pwr_cclk_vlev_datasheet'/>
+<REFERENCE symbol_id='094E26C0' symbol='_adi_pwr_cclk_vlev_datasheet'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E25D0' symbol='_adi_pwr_sclk_limits_datasheet'/>
+<REFERENCE symbol_id='094E25D0' symbol='_adi_pwr_sclk_limits_datasheet'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546808' symbol='_adi_pwr_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='09546808' symbol='_adi_pwr_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='0946C708' symbol='_adi_int_CECHook'/>
+<REFERENCE symbol_id='0946C848' symbol='_adi_int_SICSetIVG'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='0946C7A8' symbol='_adi_int_SICEnable'/>
+</OBJECT>
+<OBJECT id='0943AE18' name='(_adi_pwr_SetInitFlag, ._adi_pwr_SetInitFlag.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095464E8' name='_adi_pwr_SetInitFlag'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='0943AB38' name='(_adi_pwr_active_config, ._adi_pwr_active_config.end)' section='libssl561y.dlb[adi_pwr.doj](data1)'>
+<SYMBOL id='094E32A0' name='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='09439978' name='(_adi_int_SICGetIVG, ._adi_int_SICGetIVG.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C668' name='_adi_int_SICGetIVG'/>
+<REFERENCE symbol_id='0946CC58' symbol='_CheckPeripheralID'/>
+</OBJECT>
+<OBJECT id='0943C7F8' name='(_adi_pwr_lockvar, ._adi_pwr_lockvar.end)' section='libssl561y.dlb[adi_pwr_lockvar.doj](l2_shared)'>
+<SYMBOL id='09539978' name='_adi_pwr_lockvar'/>
+</OBJECT>
+<OBJECT id='0943AC38' name='(.SPSWITCH.13, .SPSWITCH.13.end)' section='libssl561y.dlb[adi_pwr.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943C2B8' name='(___spswitch32, .___spswitch32.end)' section='libc561y.dlb[spswitch32.doj](program)'>
+<SYMBOL id='09538BB8' name='___spswitch32'/>
+<SYMBOL id='09539108' name='__BEGIN__.binary_search'/>
+<SYMBOL id='09538B68' name='__END__.binary_search'/>
+<REFERENCE symbol_id='09539108' symbol='__BEGIN__.binary_search'/>
+</OBJECT>
+<OBJECT id='0943B3D8' name='(_adi_pwr_set_ezkit_values, ._adi_pwr_set_ezkit_values.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546948' name='_adi_pwr_set_ezkit_values'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='0943AF78' name='(_adi_pwr_SetVoltageRegulator, ._adi_pwr_SetVoltageRegulator.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546858' name='_adi_pwr_SetVoltageRegulator'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2260' symbol='_AdjustPLL'/>
+<REFERENCE symbol_id='094E2260' symbol='_AdjustPLL'/>
+<REFERENCE symbol_id='094E22B0' symbol='_PLL_prog_sequence'/>
+<REFERENCE symbol_id='094E22B0' symbol='_PLL_prog_sequence'/>
+<REFERENCE symbol_id='094E2580' symbol='_RecursiveControlEntry'/>
+<REFERENCE symbol_id='094E2580' symbol='_RecursiveControlEntry'/>
+<REFERENCE symbol_id='09546858' symbol='_adi_pwr_SetVoltageRegulator'/>
+<REFERENCE symbol_id='09546858' symbol='_adi_pwr_SetVoltageRegulator'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='09546D08' symbol='_adi_pwr_WritePMRegs'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943AAF8' name='(.epcbss, .epcbss.end)' section='libssl561y.dlb[adi_pwr.doj](bsz)'>
+<SYMBOL id='094E2260' name='_AdjustPLL'/>
+<SYMBOL id='094E22B0' name='_PLL_prog_sequence'/>
+</OBJECT>
+<OBJECT id='0943ADB8' name='(.epcdata, .epcdata.end)' section='libssl561y.dlb[adi_pwr.doj](data1)'>
+<SYMBOL id='094E2620' name='_pll_ctl_mmr'/>
+<SYMBOL id='094E2FD0' name='_pll_stat_mmr'/>
+<SYMBOL id='094E2C60' name='_pll_lockcnt_mmr'/>
+<SYMBOL id='094E2580' name='_RecursiveControlEntry'/>
+<SYMBOL id='094E31B0' name='_vddint_set'/>
+</OBJECT>
+<OBJECT id='0943A8D8' name='(.SWITCH.14, .SWITCH.14.end)' section='libssl561y.dlb[adi_pwr.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943B0D8' name='(_adi_pwr_WritePMRegs, ._adi_pwr_WritePMRegs.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546D08' name='_adi_pwr_WritePMRegs'/>
+<REFERENCE symbol_id='0946CAC8' symbol='_adi_int_SICGlobalWakeup'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09538B18' symbol='_adi_pwr_program_pll'/>
+<REFERENCE symbol_id='0946CAC8' symbol='_adi_int_SICGlobalWakeup'/>
+</OBJECT>
+<OBJECT id='09439B78' name='(_adi_int_SICGlobalWakeup, ._adi_int_SICGlobalWakeup.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946CAC8' name='_adi_int_SICGlobalWakeup'/>
+</OBJECT>
+<OBJECT id='0943C1D8' name='(_adi_pwr_program_pll, ._adi_pwr_program_pll.end)' section='libssl561y.dlb[adi_pwr_asm.doj](L1_code)'>
+<SYMBOL id='09538B18' name='_adi_pwr_program_pll'/>
+</OBJECT>
+<OBJECT id='0943AD78' name='(_adi_pwr_Control, ._adi_pwr_Control.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546628' name='_adi_pwr_Control'/>
+<REFERENCE symbol_id='094E2260' symbol='_AdjustPLL'/>
+<REFERENCE symbol_id='094E2260' symbol='_AdjustPLL'/>
+<REFERENCE symbol_id='094E22B0' symbol='_PLL_prog_sequence'/>
+<REFERENCE symbol_id='094E22B0' symbol='_PLL_prog_sequence'/>
+<REFERENCE symbol_id='094E2580' symbol='_RecursiveControlEntry'/>
+<REFERENCE symbol_id='094E2580' symbol='_RecursiveControlEntry'/>
+<REFERENCE symbol_id='09538BB8' symbol='___spswitch32'/>
+<REFERENCE symbol_id='09546628' symbol='_adi_pwr_Control'/>
+<REFERENCE symbol_id='09546628' symbol='_adi_pwr_Control'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='09546D08' symbol='_adi_pwr_WritePMRegs'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943ABF8' name='(.SPSWITCH.12, .SPSWITCH.12.end)' section='libssl561y.dlb[adi_pwr.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943AA38' name='(_adi_pwr_cclk_vlev, ._adi_pwr_cclk_vlev.end)' section='libssl561y.dlb[adi_pwr.doj](bsz)'>
+<SYMBOL id='094E2030' name='_adi_pwr_cclk_vlev'/>
+</OBJECT>
+<OBJECT id='0943AD38' name='(_adi_pwr_SetLockVarPointer, ._adi_pwr_SetLockVarPointer.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546B28' name='_adi_pwr_SetLockVarPointer'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='0943B058' name='(_adi_pwr_GetFreq, ._adi_pwr_GetFreq.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546C68' name='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+</OBJECT>
+<OBJECT id='0943B038' name='(_adi_pwr_ApplyConfig, ._adi_pwr_ApplyConfig.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095459F8' name='_adi_pwr_ApplyConfig'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='095467B8' symbol='_adi_pwr_ExecuteCallbacks'/>
+<REFERENCE symbol_id='09546D08' symbol='_adi_pwr_WritePMRegs'/>
+<REFERENCE symbol_id='094E1C70' symbol='_adi_ebiu_AdjustSDRAM'/>
+<REFERENCE symbol_id='095467B8' symbol='_adi_pwr_ExecuteCallbacks'/>
+<REFERENCE symbol_id='095467B8' symbol='_adi_pwr_ExecuteCallbacks'/>
+<REFERENCE symbol_id='094E1C70' symbol='_adi_ebiu_AdjustSDRAM'/>
+<REFERENCE symbol_id='09546D08' symbol='_adi_pwr_WritePMRegs'/>
+<REFERENCE symbol_id='095467B8' symbol='_adi_pwr_ExecuteCallbacks'/>
+<REFERENCE symbol_id='09546D08' symbol='_adi_pwr_WritePMRegs'/>
+<REFERENCE symbol_id='094E1C70' symbol='_adi_ebiu_AdjustSDRAM'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943AFF8' name='(_adi_pwr_ExecuteCallbacks, ._adi_pwr_ExecuteCallbacks.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095467B8' name='_adi_pwr_ExecuteCallbacks'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='0943AB98' name='(_adi_ebiu_AdjustSDRAM, ._adi_ebiu_AdjustSDRAM.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1C70' name='_adi_ebiu_AdjustSDRAM'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09538618' symbol='___unsigned_int32_to_float32'/>
+<REFERENCE symbol_id='09538618' symbol='___unsigned_int32_to_float32'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09536CC8' symbol='___float32_add'/>
+<REFERENCE symbol_id='09537EE8' symbol='___float32_to_int32_round_to_zero'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09538618' symbol='___unsigned_int32_to_float32'/>
+<REFERENCE symbol_id='09538618' symbol='___unsigned_int32_to_float32'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09535A58' symbol='___int32_to_float32'/>
+<REFERENCE symbol_id='09536638' symbol='___float32_div'/>
+<REFERENCE symbol_id='09536CC8' symbol='___float32_add'/>
+<REFERENCE symbol_id='09537EE8' symbol='___float32_to_int32_round_to_zero'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='095374E8' symbol='_adi_ebiu_ApplyConfig'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943C118' name='(___unsigned_int32_to_float32, .___unsigned_int32_to_float32.end)' section='libdsp561y.dlb[fltuif.doj](program)'>
+<SYMBOL id='09538618' name='___unsigned_int32_to_float32'/>
+</OBJECT>
+<OBJECT id='0943BF58' name='(___float32_mul, .___float32_mul.end)' section='libdsp561y.dlb[fpmult.doj](program)'>
+<SYMBOL id='095364F8' name='___float32_mul'/>
+</OBJECT>
+<OBJECT id='0943BE98' name='(___float32_sub, .___float32_sub.end)' section='libdsp561y.dlb[fpadd.doj](program)'>
+<SYMBOL id='09536EA8' name='___float32_sub'/>
+<SYMBOL id='09536CC8' name='___float32_add'/>
+</OBJECT>
+<OBJECT id='0943C258' name='(___float32_to_int32_round_to_zero, .___float32_to_int32_round_to_zero.end)' section='libdsp561y.dlb[f32toi32z.doj](program)'>
+<SYMBOL id='09537EE8' name='___float32_to_int32_round_to_zero'/>
+</OBJECT>
+<OBJECT id='0943BAD8' name='(___int32_to_float32, .___int32_to_float32.end)' section='libdsp561y.dlb[fltsif.doj](program)'>
+<SYMBOL id='09535A58' name='___int32_to_float32'/>
+</OBJECT>
+<OBJECT id='0943BF98' name='(___float32_div, .___float32_div.end)' section='libdsp561y.dlb[fpdiv.doj](program)'>
+<SYMBOL id='09536638' name='___float32_div'/>
+<SYMBOL id='095363B8' name='EXTRACT_MANTISSA'/>
+<SYMBOL id='09536778' name='MANTI_NOT_EQUAL'/>
+<SYMBOL id='095369A8' name='CHECK_NUM'/>
+<SYMBOL id='09535FF8' name='SUB_START'/>
+<SYMBOL id='09536188' name='SUB_END'/>
+<SYMBOL id='095361D8' name='chk_denorm'/>
+<SYMBOL id='09536868' name='denorm'/>
+<REFERENCE symbol_id='09535FF8' symbol='SUB_START'/>
+<REFERENCE symbol_id='09536188' symbol='SUB_END'/>
+<REFERENCE symbol_id='09536868' symbol='denorm'/>
+</OBJECT>
+<OBJECT id='0943C338' name='(__Processor_cycles_per_sec, .__Processor_cycles_per_sec.end)' section='libc561y.dlb[proccycles.doj](data1)'>
+<SYMBOL id='09539478' name='__Processor_cycles_per_sec'/>
+</OBJECT>
+<OBJECT id='0943AD98' name='(_adi_pwr_GetSCLK, ._adi_pwr_GetSCLK.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095463F8' name='_adi_pwr_GetSCLK'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+</OBJECT>
+<OBJECT id='0943AFB8' name='(_adi_pwr_cclk_vlev_datasheet, ._adi_pwr_cclk_vlev_datasheet.end)' section='libssl561y.dlb[adi_pwr.doj](data1)'>
+<SYMBOL id='094E26C0' name='_adi_pwr_cclk_vlev_datasheet'/>
+</OBJECT>
+<OBJECT id='0943ACB8' name='(_adi_pwr_sclk_limits_datasheet, ._adi_pwr_sclk_limits_datasheet.end)' section='libssl561y.dlb[adi_pwr.doj](data1)'>
+<SYMBOL id='094E25D0' name='_adi_pwr_sclk_limits_datasheet'/>
+</OBJECT>
+<OBJECT id='0943AC78' name='(_adi_pwr_sclk_limits, ._adi_pwr_sclk_limits.end)' section='libssl561y.dlb[adi_pwr.doj](bsz)'>
+<SYMBOL id='094E2760' name='_adi_pwr_sclk_limits'/>
+</OBJECT>
+<OBJECT id='0943AE38' name='(_adi_pwr_CoreBSuppInt0Handler, ._adi_pwr_CoreBSuppInt0Handler.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546808' name='_adi_pwr_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='0946CAC8' symbol='_adi_int_SICGlobalWakeup'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='095391A8' symbol='_adi_pwr_SyncCoreA'/>
+<REFERENCE symbol_id='0946CAC8' symbol='_adi_int_SICGlobalWakeup'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+<REFERENCE symbol_id='09539478' symbol='__Processor_cycles_per_sec'/>
+</OBJECT>
+<OBJECT id='0943C0F8' name='(_adi_pwr_SyncCoreA, ._adi_pwr_SyncCoreA.end)' section='libssl561y.dlb[adi_pwr_asm.doj](L1_code)'>
+<SYMBOL id='095391A8' name='_adi_pwr_SyncCoreA'/>
+<SYMBOL id='09538A78' name='_adi_pwr_SyncCoreA.exit'/>
+<REFERENCE symbol_id='09538A78' symbol='_adi_pwr_SyncCoreA.exit'/>
+<REFERENCE symbol_id='09538AC8' symbol='_adi_pwr_acquire_lock'/>
+</OBJECT>
+<OBJECT id='0943AF18' name='(_adi_pwr_SetMaxFreqForVolt, ._adi_pwr_SetMaxFreqForVolt.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095466C8' name='_adi_pwr_SetMaxFreqForVolt'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='09545AE8' symbol='_adi_pwr_SelectOptimalMSEL'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='09545BD8' symbol='_adi_pwr_SelectOptimalSSEL1'/>
+<REFERENCE symbol_id='09546C18' symbol='_adi_pwr_SetPLL'/>
+<REFERENCE symbol_id='095459F8' symbol='_adi_pwr_ApplyConfig'/>
+</OBJECT>
+<OBJECT id='0943ADD8' name='(_adi_pwr_SelectOptimalMSEL, ._adi_pwr_SelectOptimalMSEL.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09545AE8' name='_adi_pwr_SelectOptimalMSEL'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='0943ADF8' name='(_adi_pwr_SelectOptimalSSEL1, ._adi_pwr_SelectOptimalSSEL1.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09545BD8' name='_adi_pwr_SelectOptimalSSEL1'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+</OBJECT>
+<OBJECT id='0943AF38' name='(_adi_pwr_SetPLL, ._adi_pwr_SetPLL.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546C18' name='_adi_pwr_SetPLL'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+</OBJECT>
+<OBJECT id='09439078' name='(_IntMgrData, ._IntMgrData.end)' section='corea.dlb[LEDButton.doj](bsz)'>
+<SYMBOL id='093240B0' name='_IntMgrData'/>
+</OBJECT>
+<OBJECT id='09439B18' name='(_adi_int_Init, ._adi_int_Init.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C4D8' name='_adi_int_Init'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+</OBJECT>
+<OBJECT id='09438DD8' name='(_FlagServiceData, ._FlagServiceData.end)' section='corea.dlb[LEDButton.doj](bsz)'>
+<SYMBOL id='09323B10' name='_FlagServiceData'/>
+</OBJECT>
+<OBJECT id='09439FD8' name='(_adi_flag_Init, ._adi_flag_Init.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456A48' name='_adi_flag_Init'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+</OBJECT>
+<OBJECT id='09439E18' name='(_adi_flag_InstanceData, _adi_flag_InstanceData+0xc)' section='libssl561y.dlb[adi_flag.doj](bsz)'>
+<SYMBOL id='0946C2F8' name='_adi_flag_InstanceData'/>
+</OBJECT>
+<OBJECT id='09439658' name='(_ezInitButton, ._ezInitButton.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094626B8' name='_ezInitButton'/>
+<REFERENCE symbol_id='093066F0' symbol='_ezButtonToFlag'/>
+<REFERENCE symbol_id='093066F0' symbol='_ezButtonToFlag'/>
+<REFERENCE symbol_id='09456E58' symbol='_adi_flag_Open'/>
+<REFERENCE symbol_id='09456688' symbol='_adi_flag_SetDirection'/>
+</OBJECT>
+<OBJECT id='094396D8' name='(_ezButtonToFlag, ._ezButtonToFlag.end)' section='corea.dlb[ezkitutilities.doj](data1)'>
+<SYMBOL id='093066F0' name='_ezButtonToFlag'/>
+</OBJECT>
+<OBJECT id='09439E58' name='(_adi_flag_Open, ._adi_flag_Open.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456E58' name='_adi_flag_Open'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+</OBJECT>
+<OBJECT id='09439F18' name='(_adi_flag_SetDirection, ._adi_flag_SetDirection.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456688' name='_adi_flag_SetDirection'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439718' name='(_ezInitLED, ._ezInitLED.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462398' name='_ezInitLED'/>
+<REFERENCE symbol_id='09306510' symbol='_LEDEnables'/>
+<REFERENCE symbol_id='09306510' symbol='_LEDEnables'/>
+<REFERENCE symbol_id='09306880' symbol='_ezLEDToFlag'/>
+<REFERENCE symbol_id='09306880' symbol='_ezLEDToFlag'/>
+<REFERENCE symbol_id='09456E58' symbol='_adi_flag_Open'/>
+<REFERENCE symbol_id='09456688' symbol='_adi_flag_SetDirection'/>
+<REFERENCE symbol_id='094631F8' symbol='_ezTurnOffLED'/>
+</OBJECT>
+<OBJECT id='09439838' name='(_ezTurnOffLED, ._ezTurnOffLED.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094631F8' name='_ezTurnOffLED'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='09439478' name='(_PolledPushButtons, ._PolledPushButtons.end)' section='corea.dlb[LEDButton.doj](program)'>
+<SYMBOL id='09306240' name='_PolledPushButtons'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09463388' symbol='_ezTurnOnLED'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='09462758' symbol='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='09462488' symbol='_ezClearButton'/>
+<REFERENCE symbol_id='094631A8' symbol='_ezTurnOffAllLEDs'/>
+</OBJECT>
+<OBJECT id='09439558' name='(_ezTurnOffAllLEDs, ._ezTurnOffAllLEDs.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094631A8' name='_ezTurnOffAllLEDs'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='094396B8' name='(_ezIsButtonPushed, ._ezIsButtonPushed.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462758' name='_ezIsButtonPushed'/>
+<REFERENCE symbol_id='093066F0' symbol='_ezButtonToFlag'/>
+<REFERENCE symbol_id='093066F0' symbol='_ezButtonToFlag'/>
+<REFERENCE symbol_id='09456AE8' symbol='_adi_flag_Sense'/>
+</OBJECT>
+<OBJECT id='09439FF8' name='(_adi_flag_Sense, ._adi_flag_Sense.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456AE8' name='_adi_flag_Sense'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+</OBJECT>
+<OBJECT id='09439638' name='(_ezClearButton, ._ezClearButton.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462488' name='_ezClearButton'/>
+<REFERENCE symbol_id='09462A78' symbol='_ezDelay'/>
+<REFERENCE symbol_id='093066F0' symbol='_ezButtonToFlag'/>
+<REFERENCE symbol_id='093066F0' symbol='_ezButtonToFlag'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+</OBJECT>
+<OBJECT id='09439758' name='(_ezDelay, ._ezDelay.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462A78' name='_ezDelay'/>
+</OBJECT>
+<OBJECT id='09439578' name='(_ezTurnOnLED, ._ezTurnOnLED.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09463388' name='_ezTurnOnLED'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='09438CB8' name='(.epcdataL1_data_a, .epcdataL1_data_a.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='093235C0' name='_frame_Record'/>
+<SYMBOL id='093230C0' name='_Begin'/>
+<SYMBOL id='09322D00' name='_Train'/>
+<SYMBOL id='09323160' name='_choose'/>
+<SYMBOL id='09323570' name='_frame_zero'/>
+<SYMBOL id='09322D50' name='_frame_one'/>
+<SYMBOL id='09323250' name='_frame_two'/>
+</OBJECT>
+<OBJECT id='0943A158' name='(_Init1836, ._Init1836.end)' section='corea.dlb[Initialize.doj](program)'>
+<SYMBOL id='09458B68' name='_Init1836'/>
+<REFERENCE symbol_id='093237F0' symbol='_sCodec1836TxRegs'/>
+<REFERENCE symbol_id='093237F0' symbol='_sCodec1836TxRegs'/>
+</OBJECT>
+<OBJECT id='094390B8' name='(_sCodec1836TxRegs, ._sCodec1836TxRegs.end)' section='corea.dlb[LEDButton.doj](data1)'>
+<SYMBOL id='093237F0' name='_sCodec1836TxRegs'/>
+</OBJECT>
+<OBJECT id='0943A198' name='(_Init_Sport0, ._Init_Sport0.end)' section='corea.dlb[Initialize.doj](program)'>
+<SYMBOL id='094588E8' name='_Init_Sport0'/>
+</OBJECT>
+<OBJECT id='0943A1B8' name='(_Init_DMA, ._Init_DMA.end)' section='corea.dlb[Initialize.doj](program)'>
+<SYMBOL id='09458898' name='_Init_DMA'/>
+<REFERENCE symbol_id='09323B60' symbol='_sRxBuffer1'/>
+<REFERENCE symbol_id='09323B60' symbol='_sRxBuffer1'/>
+<REFERENCE symbol_id='093239D0' symbol='_sTxBuffer1'/>
+<REFERENCE symbol_id='093239D0' symbol='_sTxBuffer1'/>
+</OBJECT>
+<OBJECT id='09438D38' name='(_sRxBuffer1, ._sRxBuffer1.end)' section='corea.dlb[LEDButton.doj](bsz)'>
+<SYMBOL id='09323B60' name='_sRxBuffer1'/>
+</OBJECT>
+<OBJECT id='09438D78' name='(_sTxBuffer1, ._sTxBuffer1.end)' section='corea.dlb[LEDButton.doj](bsz)'>
+<SYMBOL id='093239D0' name='_sTxBuffer1'/>
+</OBJECT>
+<OBJECT id='0943A338' name='(_Init_Sport_Interrupts, ._Init_Sport_Interrupts.end)' section='corea.dlb[Initialize.doj](program)'>
+<SYMBOL id='094589D8' name='_Init_Sport_Interrupts'/>
+<REFERENCE symbol_id='095350A8' symbol='_Sport0_RX_ISR'/>
+<REFERENCE symbol_id='095350A8' symbol='_Sport0_RX_ISR'/>
+<REFERENCE symbol_id='09535D78' symbol='_register_handler'/>
+</OBJECT>
+<OBJECT id='0943B8D8' name='(_Sport0_RX_ISR, ._Sport0_RX_ISR.end)' section='corea.dlb[ISR.doj](program)'>
+<SYMBOL id='095350A8' name='_Sport0_RX_ISR'/>
+<REFERENCE symbol_id='09554F48' symbol='_m.2'/>
+<REFERENCE symbol_id='09554F48' symbol='_m.2'/>
+<REFERENCE symbol_id='09554D18' symbol='_j.0'/>
+<REFERENCE symbol_id='09554D18' symbol='_j.0'/>
+<REFERENCE symbol_id='09323B60' symbol='_sRxBuffer1'/>
+<REFERENCE symbol_id='09323B60' symbol='_sRxBuffer1'/>
+<REFERENCE symbol_id='09323610' symbol='_sCh0LeftIn'/>
+<REFERENCE symbol_id='09323610' symbol='_sCh0LeftIn'/>
+<REFERENCE symbol_id='09322DA0' symbol='_sCh0RightIn'/>
+<REFERENCE symbol_id='09322DA0' symbol='_sCh0RightIn'/>
+<REFERENCE symbol_id='09323980' symbol='_fft_in'/>
+<REFERENCE symbol_id='09323980' symbol='_fft_in'/>
+<REFERENCE symbol_id='09323980' symbol='_fft_in'/>
+<REFERENCE symbol_id='09323980' symbol='_fft_in'/>
+<REFERENCE symbol_id='09554CC8' symbol='_del.3'/>
+<REFERENCE symbol_id='09554CC8' symbol='_del.3'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='0953A508' symbol='_Process_Data'/>
+<REFERENCE symbol_id='093236B0' symbol='_sCh0LeftOut'/>
+<REFERENCE symbol_id='093236B0' symbol='_sCh0LeftOut'/>
+<REFERENCE symbol_id='09554A48' symbol='_k.1'/>
+<REFERENCE symbol_id='09554A48' symbol='_k.1'/>
+<REFERENCE symbol_id='093239D0' symbol='_sTxBuffer1'/>
+<REFERENCE symbol_id='093239D0' symbol='_sTxBuffer1'/>
+<REFERENCE symbol_id='09323200' symbol='_sCh0RightOut'/>
+<REFERENCE symbol_id='09323200' symbol='_sCh0RightOut'/>
+</OBJECT>
+<OBJECT id='0943BC38' name='(.epcdata, .epcdata.end)' section='corea.dlb[ISR.doj](data1)'>
+<SYMBOL id='09554D18' name='_j.0'/>
+<SYMBOL id='09554A48' name='_k.1'/>
+<SYMBOL id='09554F48' name='_m.2'/>
+<SYMBOL id='09554CC8' name='_del.3'/>
+</OBJECT>
+<OBJECT id='09439058' name='(_sCh0LeftIn, ._sCh0LeftIn.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='09323610' name='_sCh0LeftIn'/>
+</OBJECT>
+<OBJECT id='09438E38' name='(_sCh0RightIn, ._sCh0RightIn.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='09322DA0' name='_sCh0RightIn'/>
+</OBJECT>
+<OBJECT id='09438E78' name='(_fft_in, ._fft_in.end)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+<SYMBOL id='09323980' name='_fft_in'/>
+</OBJECT>
+<OBJECT id='0943C858' name='(_Process_Data, ._Process_Data.end)' section='corea.dlb[Process_data.doj](program)'>
+<SYMBOL id='0953A508' name='_Process_Data'/>
+<REFERENCE symbol_id='09323610' symbol='_sCh0LeftIn'/>
+<REFERENCE symbol_id='09323610' symbol='_sCh0LeftIn'/>
+<REFERENCE symbol_id='093236B0' symbol='_sCh0LeftOut'/>
+<REFERENCE symbol_id='093236B0' symbol='_sCh0LeftOut'/>
+<REFERENCE symbol_id='09322DA0' symbol='_sCh0RightIn'/>
+<REFERENCE symbol_id='09322DA0' symbol='_sCh0RightIn'/>
+<REFERENCE symbol_id='09323200' symbol='_sCh0RightOut'/>
+<REFERENCE symbol_id='09323200' symbol='_sCh0RightOut'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='093230C0' symbol='_Begin'/>
+<REFERENCE symbol_id='0953A148' symbol='_compute_fft'/>
+</OBJECT>
+<OBJECT id='09438F58' name='(_sCh0LeftOut, ._sCh0LeftOut.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='093236B0' name='_sCh0LeftOut'/>
+</OBJECT>
+<OBJECT id='09438E98' name='(_sCh0RightOut, ._sCh0RightOut.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='09323200' name='_sCh0RightOut'/>
+</OBJECT>
+<OBJECT id='0943C818' name='(_compute_fft, ._compute_fft.end)' section='corea.dlb[Process_data.doj](program)'>
+<SYMBOL id='0953A148' name='_compute_fft'/>
+<REFERENCE symbol_id='09324010' symbol='_fft_twid'/>
+<REFERENCE symbol_id='09324010' symbol='_fft_twid'/>
+<REFERENCE symbol_id='09323CA0' symbol='_fft_out'/>
+<REFERENCE symbol_id='09323CA0' symbol='_fft_out'/>
+<REFERENCE symbol_id='09323980' symbol='_fft_in'/>
+<REFERENCE symbol_id='09323980' symbol='_fft_in'/>
+<REFERENCE symbol_id='0953B2C8' symbol='__rfftN_scaling_fr16'/>
+<REFERENCE symbol_id='09323CA0' symbol='_fft_out'/>
+<REFERENCE symbol_id='09323CA0' symbol='_fft_out'/>
+<REFERENCE symbol_id='095E8690' symbol='__cabs_fr16'/>
+<REFERENCE symbol_id='09323A70' symbol='_fft_mag'/>
+<REFERENCE symbol_id='09323A70' symbol='_fft_mag'/>
+<REFERENCE symbol_id='09323A70' symbol='_fft_mag'/>
+<REFERENCE symbol_id='09323A70' symbol='_fft_mag'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09323110' symbol='_Record'/>
+<REFERENCE symbol_id='09323110' symbol='_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+</OBJECT>
+<OBJECT id='09438FD8' name='(_fft_twid, ._fft_twid.end)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+<SYMBOL id='09324010' name='_fft_twid'/>
+</OBJECT>
+<OBJECT id='09438DB8' name='(_fft_out, ._fft_out.end)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+<SYMBOL id='09323CA0' name='_fft_out'/>
+</OBJECT>
+<OBJECT id='0943CC58' name='(__rfftN_scaling_fr16, .__rfftN_scaling_fr16.end)' section='libdsp561y.dlb[rfftdyn_fr16.doj](program)'>
+<SYMBOL id='0953B2C8' name='__rfftN_scaling_fr16'/>
+</OBJECT>
+<OBJECT id='0943CC98' name='(__cabs_fr16, .__cabs_fr16.end)' section='libdsp561y.dlb[cabfr16.doj](program)'>
+<SYMBOL id='095E8690' name='__cabs_fr16'/>
+<SYMBOL id='095E9040' name='RE_GT_IMG'/>
+<SYMBOL id='095E8F00' name='RE_LT_IMG'/>
+<SYMBOL id='095E8DC0' name='RET_IMG'/>
+<SYMBOL id='095E8AF0' name='RET_REAL'/>
+<SYMBOL id='095E8FF0' name='RE_EQ_IMG'/>
+<SYMBOL id='095E88C0' name='RE_EQ_IMG_EXIT'/>
+<REFERENCE symbol_id='095E8DC0' symbol='RET_IMG'/>
+<REFERENCE symbol_id='095E8AF0' symbol='RET_REAL'/>
+<REFERENCE symbol_id='095E8FF0' symbol='RE_EQ_IMG'/>
+<REFERENCE symbol_id='095E9040' symbol='RE_GT_IMG'/>
+<REFERENCE symbol_id='095E8F00' symbol='RE_LT_IMG'/>
+<REFERENCE symbol_id='095E8870' symbol='__div16'/>
+<REFERENCE symbol_id='095E89B0' symbol='__sqrt_fr16'/>
+<REFERENCE symbol_id='095E88C0' symbol='RE_EQ_IMG_EXIT'/>
+</OBJECT>
+<OBJECT id='0943C978' name='(__div16, .__div16.end)' section='libdsp561y.dlb[div16.doj](program)'>
+<SYMBOL id='095E8870' name='__div16'/>
+<SYMBOL id='095E8910' name='DIV_START'/>
+<REFERENCE symbol_id='095E8910' symbol='DIV_START'/>
+<REFERENCE symbol_id='095E8910' symbol='DIV_START'/>
+</OBJECT>
+<OBJECT id='0943CD18' name='(__sqrt_fr16, .__sqrt_fr16.end)' section='libdsp561y.dlb[sqrt_fr16.doj](program)'>
+<SYMBOL id='095E89B0' name='__sqrt_fr16'/>
+</OBJECT>
+<OBJECT id='0943CA38' name='(.sqrtcoef0, .sqrtcoef0+0xa)' section='libdsp561y.dlb[sqrt_fr16.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943CBB8' name='(.sqrtcoef1, .sqrtcoef1+0xa)' section='libdsp561y.dlb[sqrt_fr16.doj](constdata)'>
+</OBJECT>
+<OBJECT id='09438F18' name='(_fft_mag, ._fft_mag.end)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+<SYMBOL id='09323A70' name='_fft_mag'/>
+</OBJECT>
+<OBJECT id='09438D58' name='(_Record, ._Record.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='09323110' name='_Record'/>
+</OBJECT>
+<OBJECT id='0943BC58' name='(_register_handler, ._register_handler.end)' section='libsmall561y.dlb[reghdlr_s.doj](program)'>
+<SYMBOL id='09535D78' name='_register_handler'/>
+<REFERENCE symbol_id='09535E18' symbol='_register_handler_ex'/>
+</OBJECT>
+<OBJECT id='0943B8F8' name='(_register_handler_ex, ._register_handler_ex.end)' section='libsmall561y.dlb[reghdlr_s.doj](program)'>
+<SYMBOL id='09535E18' name='_register_handler_ex'/>
+<REFERENCE symbol_id='09535A08' symbol='_disable_int'/>
+<REFERENCE symbol_id='09535878' symbol='_enable_int'/>
+<REFERENCE symbol_id='09535A08' symbol='_disable_int'/>
+<REFERENCE symbol_id='09535A08' symbol='_disable_int'/>
+<REFERENCE symbol_id='09535878' symbol='_enable_int'/>
+</OBJECT>
+<OBJECT id='0943BA78' name='(_disable_int, ._disable_int.end)' section='libsmall561y.dlb[reghdlr_s.doj](program)'>
+<SYMBOL id='09535A08' name='_disable_int'/>
+</OBJECT>
+<OBJECT id='0943BB38' name='(_enable_int, ._enable_int.end)' section='libsmall561y.dlb[reghdlr_s.doj](program)'>
+<SYMBOL id='09535878' name='_enable_int'/>
+</OBJECT>
+<OBJECT id='0943A418' name='(_Init_FFT, ._Init_FFT.end)' section='corea.dlb[Initialize.doj](program)'>
+<SYMBOL id='094587A8' name='_Init_FFT'/>
+<REFERENCE symbol_id='09324010' symbol='_fft_twid'/>
+<REFERENCE symbol_id='09324010' symbol='_fft_twid'/>
+<REFERENCE symbol_id='09535C38' symbol='__twidfftrad2_fr16'/>
+</OBJECT>
+<OBJECT id='0943BA18' name='(__twidfftrad2_fr16, .__twidfftrad2_fr16.end)' section='libdsp561y.dlb[twidfftrad2_fr16.doj](program)'>
+<SYMBOL id='09535C38' name='__twidfftrad2_fr16'/>
+<REFERENCE symbol_id='0953A238' symbol='__cos_fr16'/>
+<REFERENCE symbol_id='0953A738' symbol='__sin_fr16'/>
+</OBJECT>
+<OBJECT id='0943C7D8' name='(__cos_fr16, .__cos_fr16.end)' section='libdsp561y.dlb[cos_fr16.doj](program)'>
+<SYMBOL id='0953A238' name='__cos_fr16'/>
+<SYMBOL id='09539BF8' name='COSSTRT'/>
+<SYMBOL id='0953A1E8' name='COSEND'/>
+<REFERENCE symbol_id='09539BF8' symbol='COSSTRT'/>
+<REFERENCE symbol_id='0953A1E8' symbol='COSEND'/>
+</OBJECT>
+<OBJECT id='0943C6B8' name='(__sin_fr16, .__sin_fr16.end)' section='libdsp561y.dlb[sin_fr16.doj](program)'>
+<SYMBOL id='0953A738' name='__sin_fr16'/>
+<SYMBOL id='0953A788' name='SINSTRT'/>
+<SYMBOL id='0953AA08' name='SINEND'/>
+<REFERENCE symbol_id='0953A788' symbol='SINSTRT'/>
+<REFERENCE symbol_id='0953AA08' symbol='SINEND'/>
+</OBJECT>
+<OBJECT id='0943A138' name='(_Enable_DMA_Sport0, ._Enable_DMA_Sport0.end)' section='corea.dlb[Initialize.doj](program)'>
+<SYMBOL id='09458C58' name='_Enable_DMA_Sport0'/>
+</OBJECT>
+<OBJECT id='0943A3D8' name='(_compute_dct, ._compute_dct.end)' section='corea.dlb[compute_dct.doj](program)'>
+<SYMBOL id='09458F78' name='_compute_dct'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09535A58' symbol='___int32_to_float32'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09535A58' symbol='___int32_to_float32'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09536638' symbol='___float32_div'/>
+<REFERENCE symbol_id='09536E08' symbol='__cosf'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09323110' symbol='_Record'/>
+<REFERENCE symbol_id='09323110' symbol='_Record'/>
+<REFERENCE symbol_id='09535A58' symbol='___int32_to_float32'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='093231B0' symbol='_test'/>
+<REFERENCE symbol_id='093231B0' symbol='_test'/>
+<REFERENCE symbol_id='09536CC8' symbol='___float32_add'/>
+</OBJECT>
+<OBJECT id='0943C018' name='(__cosf, .__cosf.end)' section='libdsp561y.dlb[cosf32.doj](program)'>
+<SYMBOL id='09536E08' name='__cosf'/>
+<SYMBOL id='09536A48' name='__BEGIN__.P35L53L'/>
+<SYMBOL id='09536BD8' name='__END__.P35L53L'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09536CC8' symbol='___float32_add'/>
+<REFERENCE symbol_id='09537EE8' symbol='___float32_to_int32_round_to_zero'/>
+<REFERENCE symbol_id='095362C8' symbol='_pi_coeff.9'/>
+<REFERENCE symbol_id='095362C8' symbol='_pi_coeff.9'/>
+<REFERENCE symbol_id='0953AE68' symbol='__float_to_raw64'/>
+<REFERENCE symbol_id='09538758' symbol='___mulli3'/>
+<REFERENCE symbol_id='0953A6E8' symbol='___longlong64_to_float32'/>
+<REFERENCE symbol_id='0953A918' symbol='___ashftli'/>
+<REFERENCE symbol_id='095366D8' symbol='_coeffs_r.10'/>
+<REFERENCE symbol_id='095366D8' symbol='_coeffs_r.10'/>
+<REFERENCE symbol_id='09536A48' symbol='__BEGIN__.P35L53L'/>
+<REFERENCE symbol_id='0953A6E8' symbol='___longlong64_to_float32'/>
+<REFERENCE symbol_id='095364F8' symbol='___float32_mul'/>
+<REFERENCE symbol_id='09536CC8' symbol='___float32_add'/>
+</OBJECT>
+<OBJECT id='0943BD58' name='(_pi_coeff.9, ._pi_coeff.9.end)' section='libdsp561y.dlb[cosf32.doj](constdata)'>
+<SYMBOL id='095362C8' name='_pi_coeff.9'/>
+</OBJECT>
+<OBJECT id='0943C798' name='(__float_to_raw64, .__float_to_raw64.end)' section='libdsp561y.dlb[float_to_raw64.doj](program)'>
+<SYMBOL id='0953AE68' name='__float_to_raw64'/>
+</OBJECT>
+<OBJECT id='0943C218' name='(___mulli3, .___mulli3.end)' section='libdsp561y.dlb[mul_64.doj](program)'>
+<SYMBOL id='09538758' name='___mulli3'/>
+<SYMBOL id='09538398' name='___mullu3'/>
+<SYMBOL id='09538348' name='___mul_64'/>
+</OBJECT>
+<OBJECT id='0943CB18' name='(___longlong64_to_float32, .___longlong64_to_float32.end)' section='libdsp561y.dlb[floatdisf.doj](program)'>
+<SYMBOL id='0953A6E8' name='___longlong64_to_float32'/>
+<SYMBOL id='0953A7D8' name='__longlong64_to_float32'/>
+<REFERENCE symbol_id='09535A58' symbol='___int32_to_float32'/>
+<REFERENCE symbol_id='09538618' symbol='___unsigned_int32_to_float32'/>
+</OBJECT>
+<OBJECT id='0943C8F8' name='(___ashftli, .___ashftli.end)' section='libdsp561y.dlb[ashfti64.doj](program)'>
+<SYMBOL id='0953A918' name='___ashftli'/>
+</OBJECT>
+<OBJECT id='0943BFB8' name='(_coeffs_r.10, ._coeffs_r.10.end)' section='libdsp561y.dlb[cosf32.doj](constdata)'>
+<SYMBOL id='095366D8' name='_coeffs_r.10'/>
+</OBJECT>
+<OBJECT id='09438EB8' name='(_test, ._test.end)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+<SYMBOL id='093231B0' name='_test'/>
+</OBJECT>
+<OBJECT id='0943A238' name='(_save_example, ._save_example.end)' section='corea.dlb[save_example.doj](program)'>
+<SYMBOL id='0945A7D8' name='_save_example'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09323570' symbol='_frame_zero'/>
+<REFERENCE symbol_id='09323570' symbol='_frame_zero'/>
+<REFERENCE symbol_id='093231B0' symbol='_test'/>
+<REFERENCE symbol_id='093231B0' symbol='_test'/>
+<REFERENCE symbol_id='09323F20' symbol='_zero'/>
+<REFERENCE symbol_id='09323F20' symbol='_zero'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09322D50' symbol='_frame_one'/>
+<REFERENCE symbol_id='09322D50' symbol='_frame_one'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09323250' symbol='_frame_two'/>
+<REFERENCE symbol_id='09323250' symbol='_frame_two'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='093235C0' symbol='_frame_Record'/>
+<REFERENCE symbol_id='09323840' symbol='_frame_three'/>
+<REFERENCE symbol_id='09323840' symbol='_frame_three'/>
+</OBJECT>
+<OBJECT id='09438FF8' name='(_zero, ._zero.end)' section='corea.dlb[LEDButton.doj](L2_sram)'>
+<SYMBOL id='09323F20' name='_zero'/>
+</OBJECT>
+<OBJECT id='09438F38' name='(_frame_three, _frame_three+0x2)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+<SYMBOL id='09323840' name='_frame_three'/>
+</OBJECT>
+<OBJECT id='09439318' name='(_exit, ._exit.end)' section='libc561y.dlb[exit.doj](program)'>
+<SYMBOL id='09306330' name='_exit'/>
+<REFERENCE symbol_id='0945AA08' symbol='___sys_atexit_funcs'/>
+<REFERENCE symbol_id='0945AA08' symbol='___sys_atexit_funcs'/>
+<REFERENCE symbol_id='0945A5A8' symbol='__exit_value'/>
+<REFERENCE symbol_id='0945A5A8' symbol='__exit_value'/>
+<REFERENCE symbol_id='0945AA58' symbol='__Exit'/>
+</OBJECT>
+<OBJECT id='0943A318' name='(___sys_atexit_funcs, .___sys_atexit_funcs.end)' section='libc561y.dlb[xatexit.doj](bsz)'>
+<SYMBOL id='0945AA08' name='___sys_atexit_funcs'/>
+</OBJECT>
+<OBJECT id='0943A458' name='(__exit_value, __exit_value+0x4)' section='libc561y.dlb[exit_value.doj](data1)'>
+<SYMBOL id='0945A5A8' name='__exit_value'/>
+</OBJECT>
+<OBJECT id='0943A758' name='(__Exit, .__Exit.end)' section='libc561y.dlb[_exit_s.doj](program)'>
+<SYMBOL id='0945AA58' name='__Exit'/>
+<SYMBOL id='0945A4B8' name='___lib_prog_term'/>
+<REFERENCE symbol_id='0945A4B8' symbol='___lib_prog_term'/>
+</OBJECT>
+<SECTION id='092AFED8' name='LEDButton_basiccrt.doj(.frt)'>
+<SYMBOL id='093205A0' name='___eh_frt'/>
+</SECTION>
+<SECTION id='092AF980' name='LEDButton_basiccrt.doj(.gdt)'>
+<SYMBOL id='093205F0' name='___eh_gdt'/>
+</SECTION>
+<SECTION id='092AFF68' name='LEDButton_basiccrt.doj(ctor)'>
+<SYMBOL id='09320780' name='___ctor_table'/>
+</SECTION>
+<SECTION id='092AFAE8' name='.\Debug\LEDButton_heaptab.doj(data1)'>
+</SECTION>
+<SECTION id='092AFB78' name='.\Debug\LEDButton_heaptab.doj(program)'>
+</SECTION>
+<SECTION id='092AF860' name='crtn561y.doj(.gdtl)'>
+<SYMBOL id='09320FF0' name='___eh_gdt_end'/>
+</SECTION>
+<SECTION id='092AF590' name='crtn561y.doj(ctorl)'>
+<SYMBOL id='093215E0' name='___ctor_end'/>
+</SECTION>
+<SECTION id='09415CE0' name='librt_fileio561y.dlb[getargv.doj](data1)'>
+</SECTION>
+<SECTION id='09454C80' name='libc561y.dlb[exit.doj](data1)'>
+</SECTION>
+<SECTION id='09454C38' name='librt_fileio561y.dlb[argstring.doj](program)'>
+</SECTION>
+<SECTION id='09453DE0' name='corea.dlb[Initialize.doj](data1)'>
+</SECTION>
+<SECTION id='09454140' name='corea.dlb[compute_dct.doj](data1)'>
+</SECTION>
+<SECTION id='094541D0' name='corea.dlb[save_example.doj](data1)'>
+</SECTION>
+<SECTION id='09454218' name='libc561y.dlb[xatexit.doj](program)'>
+</SECTION>
+<SECTION id='094B13F8' name='libc561y.dlb[exit_value.doj](program)'>
+</SECTION>
+<SECTION id='094B1680' name='libc561y.dlb[adi_fatal_data.doj](program)'>
+</SECTION>
+<SECTION id='094B1008' name='libssl561y.dlb[adi_int_asm.doj](constdata)'>
+</SECTION>
+<SECTION id='094B1830' name='librt_fileio561y.dlb[_memmove2.doj](data1)'>
+</SECTION>
+<SECTION id='094B28C8' name='libc561y.dlb[proccycles.doj](program)'>
+</SECTION>
+<SECTION id='095C3198' name='libssl561y.dlb[adi_pwr_lockvar.doj](program)'>
+</SECTION>
+<SECTION id='095C2CD0' name='corea.dlb[Process_data.doj](data1)'>
+</SECTION>
+<SECTION id='095C2E80' name='libdsp561y.dlb[cos_fr16.doj](data1)'>
+</SECTION>
+<SECTION id='095C2F58' name='libdsp561y.dlb[sin_fr16.doj](data1)'>
+</SECTION>
+<IMPORTED_FILE id='09081FA8' name="libssl561y.dlb[adi_pwr_lockvar.doj]" importer='081942C0'/>
+</LINKPROJECT>
+<LINKPROJECT name="processor 'p1'" id='08194D10' importer_id='08194D10'>
+<OBJECT id='08C5DE58' name='(start, .start.end)' section='LEDButton_basiccrt.doj(program)'>
+<SYMBOL id='09321CC0' name='start'/>
+<SYMBOL id='09321DB0' name='still_interrupt_in_ipend'/>
+<SYMBOL id='09321BD0' name='supervisor_mode'/>
+<REFERENCE symbol_id='095E8730' symbol='__unknown_exception_occurred'/>
+<REFERENCE symbol_id='095E8730' symbol='__unknown_exception_occurred'/>
+<REFERENCE symbol_id='09321BD0' symbol='supervisor_mode'/>
+<REFERENCE symbol_id='09321BD0' symbol='supervisor_mode'/>
+<REFERENCE symbol_id='081FAC20' symbol='ldf_stack_end'/>
+<REFERENCE symbol_id='081FAC20' symbol='ldf_stack_end'/>
+<REFERENCE symbol_id='095E8C30' symbol='__install_default_handlers'/>
+<REFERENCE symbol_id='095E8E60' symbol='__mc_data_initialise'/>
+<REFERENCE symbol_id='09321DB0' symbol='still_interrupt_in_ipend'/>
+<REFERENCE symbol_id='09321DB0' symbol='still_interrupt_in_ipend'/>
+<REFERENCE symbol_id='095E97C0' symbol='_init_devtab'/>
+<REFERENCE symbol_id='095E99F0' symbol='___ctorloop'/>
+<REFERENCE symbol_id='095E9720' symbol='__getargv'/>
+<REFERENCE symbol_id='095E9180' symbol='__Argv'/>
+<REFERENCE symbol_id='095E9180' symbol='__Argv'/>
+<REFERENCE symbol_id='095EA260' symbol='_main'/>
+<REFERENCE symbol_id='095EA0D0' symbol='_exit'/>
+</OBJECT>
+<OBJECT id='0943D058' name='(__unknown_exception_occurred, .__unknown_exception_occurred.end)' section='libevent561y.dlb[unknownex.doj](program)'>
+<SYMBOL id='095E8730' name='__unknown_exception_occurred'/>
+<REFERENCE symbol_id='095EA3A0' symbol='_adi_fatal_exception'/>
+</OBJECT>
+<OBJECT id='0943D218' name='(_adi_fatal_exception, ._adi_fatal_exception.end)' section='libc561y.dlb[adi_fatal_exception.doj](program)'>
+<SYMBOL id='095EA3A0' name='_adi_fatal_exception'/>
+<SYMBOL id='095E9CC0' name='__fatal_exception'/>
+<REFERENCE symbol_id='095EACB0' symbol='_adi_fatal_error_general_code'/>
+<REFERENCE symbol_id='095EACB0' symbol='_adi_fatal_error_general_code'/>
+<REFERENCE symbol_id='095EA8A0' symbol='_adi_fatal_error_specific_code'/>
+<REFERENCE symbol_id='095EA8A0' symbol='_adi_fatal_error_specific_code'/>
+<REFERENCE symbol_id='095EA490' symbol='_adi_fatal_error_value'/>
+<REFERENCE symbol_id='095EA490' symbol='_adi_fatal_error_value'/>
+<REFERENCE symbol_id='095EAE40' symbol='_adi_fatal_error_pc'/>
+<REFERENCE symbol_id='095EAE40' symbol='_adi_fatal_error_pc'/>
+<REFERENCE symbol_id='095E9CC0' symbol='__fatal_exception'/>
+</OBJECT>
+<OBJECT id='0943D6F8' name='(.epcdata, .epcdata.end)' section='libc561y.dlb[adi_fatal_data.doj](data1)'>
+<SYMBOL id='095EACB0' name='_adi_fatal_error_general_code'/>
+<SYMBOL id='095EA8A0' name='_adi_fatal_error_specific_code'/>
+<SYMBOL id='095EA490' name='_adi_fatal_error_value'/>
+<SYMBOL id='095EAE40' name='_adi_fatal_error_pc'/>
+</OBJECT>
+<OBJECT id='0943CE98' name='(__install_default_handlers, .__install_default_handlers.end)' section='libevent561y.dlb[defhdlrs.doj](program)'>
+<SYMBOL id='095E8C30' name='__install_default_handlers'/>
+</OBJECT>
+<OBJECT id='0943CE58' name='(__mc_data_initialise, .__mc_data_initialise.end)' section='libc561y.dlb[mc_data_init.doj](program)'>
+<SYMBOL id='095E8E60' name='__mc_data_initialise'/>
+</OBJECT>
+<OBJECT id='0943CE38' name='(_init_devtab, ._init_devtab.end)' section='libio561y.dlb[dev_init_dummy.doj](program)'>
+<SYMBOL id='095E97C0' name='_init_devtab'/>
+</OBJECT>
+<OBJECT id='0943CF98' name='(___ctorloop, .___ctorloop.end)' section='libcpp561y.dlb[ctorloop.doj](program)'>
+<SYMBOL id='095E99F0' name='___ctorloop'/>
+<REFERENCE symbol_id='095E9770' symbol='_list_ctor'/>
+<REFERENCE symbol_id='095E9770' symbol='_list_ctor'/>
+</OBJECT>
+<OBJECT id='0943CCB8' name='(.epcdata, .epcdata.end)' section='libcpp561y.dlb[ctorloop.doj](data1)'>
+<SYMBOL id='095E9770' name='_list_ctor'/>
+<REFERENCE symbol_id='09321180' symbol='___ctor_table'/>
+</OBJECT>
+<OBJECT id='0943D178' name='(__getargv, .__getargv.end)' section='librt_fileio561y.dlb[getargv.doj](program)'>
+<SYMBOL id='095E9720' name='__getargv'/>
+<REFERENCE symbol_id='095E9EA0' symbol='___argv_string'/>
+<REFERENCE symbol_id='095E9EA0' symbol='___argv_string'/>
+<REFERENCE symbol_id='095E9180' symbol='__Argv'/>
+<REFERENCE symbol_id='095E9180' symbol='__Argv'/>
+</OBJECT>
+<OBJECT id='0943D478' name='(___argv_string, ___argv_string+0x1)' section='librt_fileio561y.dlb[argstring.doj](data1)'>
+<SYMBOL id='095E9EA0' name='___argv_string'/>
+</OBJECT>
+<OBJECT id='0943D198' name='(__Argv, .__Argv.end)' section='librt_fileio561y.dlb[getargv.doj](bsz)'>
+<SYMBOL id='095E9180' name='__Argv'/>
+</OBJECT>
+<OBJECT id='0943D2F8' name='(_main, ._main.end)' section='coreb.dlb[idle.doj](program)'>
+<SYMBOL id='095EA260' name='_main'/>
+</OBJECT>
+<OBJECT id='0943D338' name='(_exit, ._exit.end)' section='libc561y.dlb[exit.doj](program)'>
+<SYMBOL id='095EA0D0' name='_exit'/>
+<REFERENCE symbol_id='095EA530' symbol='___sys_atexit_funcs'/>
+<REFERENCE symbol_id='095EA530' symbol='___sys_atexit_funcs'/>
+<REFERENCE symbol_id='095EA5D0' symbol='__exit_value'/>
+<REFERENCE symbol_id='095EA5D0' symbol='__exit_value'/>
+<REFERENCE symbol_id='095EA990' symbol='__Exit'/>
+</OBJECT>
+<OBJECT id='0943D398' name='(___sys_atexit_funcs, .___sys_atexit_funcs.end)' section='libc561y.dlb[xatexit.doj](bsz)'>
+<SYMBOL id='095EA530' name='___sys_atexit_funcs'/>
+</OBJECT>
+<OBJECT id='0943D638' name='(__exit_value, __exit_value+0x4)' section='libc561y.dlb[exit_value.doj](data1)'>
+<SYMBOL id='095EA5D0' name='__exit_value'/>
+</OBJECT>
+<OBJECT id='0943D618' name='(__Exit, .__Exit.end)' section='libc561y.dlb[_exit_s.doj](program)'>
+<SYMBOL id='095EA990' name='__Exit'/>
+<SYMBOL id='095EA620' name='___lib_prog_term'/>
+<REFERENCE symbol_id='095EA620' symbol='___lib_prog_term'/>
+</OBJECT>
+<SECTION id='09390EC8' name='LEDButton_basiccrt.doj(.frt)'>
+<SYMBOL id='093211D0' name='___eh_frt'/>
+</SECTION>
+<SECTION id='09391270' name='LEDButton_basiccrt.doj(.gdt)'>
+<SYMBOL id='09321040' name='___eh_gdt'/>
+</SECTION>
+<SECTION id='09390CD0' name='LEDButton_basiccrt.doj(ctor)'>
+<SYMBOL id='09321180' name='___ctor_table'/>
+</SECTION>
+<SECTION id='09390F10' name='.\Debug\LEDButton_heaptab.doj(data1)'>
+</SECTION>
+<SECTION id='093911E0' name='.\Debug\LEDButton_heaptab.doj(program)'>
+</SECTION>
+<SECTION id='09390E80' name='crtn561y.doj(.gdtl)'>
+<SYMBOL id='09321F40' name='___eh_gdt_end'/>
+</SECTION>
+<SECTION id='09390FE8' name='crtn561y.doj(ctorl)'>
+<SYMBOL id='093219A0' name='___ctor_end'/>
+</SECTION>
+<SECTION id='095C3ED0' name='librt_fileio561y.dlb[getargv.doj](data1)'>
+</SECTION>
+<SECTION id='095C3E40' name='libc561y.dlb[exit.doj](data1)'>
+</SECTION>
+<SECTION id='095C4398' name='librt_fileio561y.dlb[argstring.doj](program)'>
+</SECTION>
+<SECTION id='095C41E8' name='libc561y.dlb[xatexit.doj](program)'>
+</SECTION>
+<SECTION id='095C4500' name='libc561y.dlb[exit_value.doj](program)'>
+</SECTION>
+<SECTION id='095C44B8' name='libc561y.dlb[adi_fatal_data.doj](program)'>
+</SECTION>
+</LINKPROJECT>
+<LINKPROJECT name="common memory './L2_and_L3_common_memory.sm'" id='081942C0' importer_id='081942C0'>
+</LINKPROJECT>
+<LINKPROJECT_UNNEEDED_OBJECTS project_id='081944D0' importer_id='081944D0'>
+<OBJECT id='08C5CC38' name='(_heap_table, ._heap_table.end)' section='.\Debug\LEDButton_heaptab.doj(constdata)'>
+<SYMBOL id='09320F50' name='_heap_table'/>
+<REFERENCE symbol_id='081F9870' symbol='ldf_heap_space'/>
+<REFERENCE symbol_id='081F9240' symbol='ldf_heap_length'/>
+</OBJECT>
+<OBJECT id='08C5CD78' name='(_dcplbs_table, ._dcplbs_table.end)' section='cplbtab561a.doj(cplb_data)'>
+<SYMBOL id='09321720' name='_dcplbs_table'/>
+</OBJECT>
+<OBJECT id='08C5CF38' name='(_icplbs_table, ._icplbs_table.end)' section='cplbtab561a.doj(cplb_data)'>
+<SYMBOL id='09321130' name='_icplbs_table'/>
+</OBJECT>
+<OBJECT id='09439018' name='(0xe,0x10)' section='corea.dlb[LEDButton.doj](L1_data_a)'>
+</OBJECT>
+<OBJECT id='09438F98' name='(0x2,0x4)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+</OBJECT>
+<OBJECT id='09438F78' name='(_t, ._t.end)' section='corea.dlb[LEDButton.doj](L1_data_b)'>
+<SYMBOL id='09324060' name='_t'/>
+</OBJECT>
+<OBJECT id='09438D18' name='(_cycleCount, _cycleCount+0x4)' section='corea.dlb[LEDButton.doj](bsz)'>
+<SYMBOL id='09323AC0' name='_cycleCount'/>
+</OBJECT>
+<OBJECT id='094393F8' name='(.epcdata, .epcdata.end)' section='corea.dlb[LEDButton.doj](data1)'>
+<SYMBOL id='09323BB0' name='_Debounce_Time'/>
+</OBJECT>
+<OBJECT id='09439818' name='(_ezGetDisplay, ._ezGetDisplay.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094622A8' name='_ezGetDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+</OBJECT>
+<OBJECT id='09439778' name='(_ezIsLEDOn, ._ezIsLEDOn.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462C08' name='_ezIsLEDOn'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+</OBJECT>
+<OBJECT id='094397F8' name='(_ezToggleLED, ._ezToggleLED.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462ED8' name='_ezToggleLED'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='09439858' name='(_ezTurnOnAllLEDs, ._ezTurnOnAllLEDs.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094634C8' name='_ezTurnOnAllLEDs'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='094394F8' name='(_ezToggleAllLEDs, ._ezToggleAllLEDs.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094633D8' name='_ezToggleAllLEDs'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='093064C0' symbol='_LEDDisplay'/>
+<REFERENCE symbol_id='094627F8' symbol='_ezSetDisplay'/>
+</OBJECT>
+<OBJECT id='09439798' name='(_ezReset1836, ._ezReset1836.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462BB8' name='_ezReset1836'/>
+<REFERENCE symbol_id='09456E58' symbol='_adi_flag_Open'/>
+<REFERENCE symbol_id='09456688' symbol='_adi_flag_SetDirection'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+<REFERENCE symbol_id='094564F8' symbol='_adi_flag_Set'/>
+</OBJECT>
+<OBJECT id='094394B8' name='(_ezEnableVideoDecoder, ._ezEnableVideoDecoder.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='094627A8' name='_ezEnableVideoDecoder'/>
+<REFERENCE symbol_id='09456688' symbol='_adi_flag_SetDirection'/>
+<REFERENCE symbol_id='09456688' symbol='_adi_flag_SetDirection'/>
+<REFERENCE symbol_id='094564F8' symbol='_adi_flag_Set'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+<REFERENCE symbol_id='094564F8' symbol='_adi_flag_Set'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+</OBJECT>
+<OBJECT id='094394D8' name='(_ezEnableVideoEncoder, ._ezEnableVideoEncoder.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462348' name='_ezEnableVideoEncoder'/>
+<REFERENCE symbol_id='09456E58' symbol='_adi_flag_Open'/>
+<REFERENCE symbol_id='09456688' symbol='_adi_flag_SetDirection'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+<REFERENCE symbol_id='094564F8' symbol='_adi_flag_Set'/>
+</OBJECT>
+<OBJECT id='09439698' name='(_ezDisableVideoEncoder, ._ezDisableVideoEncoder.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462AC8' name='_ezDisableVideoEncoder'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+<REFERENCE symbol_id='09456728' symbol='_adi_flag_Close'/>
+</OBJECT>
+<OBJECT id='094396F8' name='(_ezDisableVideoDecoder, ._ezDisableVideoDecoder.end)' section='corea.dlb[ezkitutilities.doj](program)'>
+<SYMBOL id='09462618' name='_ezDisableVideoDecoder'/>
+<REFERENCE symbol_id='094564F8' symbol='_adi_flag_Set'/>
+<REFERENCE symbol_id='09456638' symbol='_adi_flag_Clear'/>
+<REFERENCE symbol_id='09456728' symbol='_adi_flag_Close'/>
+<REFERENCE symbol_id='09456728' symbol='_adi_flag_Close'/>
+</OBJECT>
+<OBJECT id='09439BF8' name='(_adi_int_GetLibraryDetails, ._adi_int_GetLibraryDetails.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946CA78' name='_adi_int_GetLibraryDetails'/>
+</OBJECT>
+<OBJECT id='09439A78' name='(_adi_int_ClearIMaskBits, ._adi_int_ClearIMaskBits.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C5C8' name='_adi_int_ClearIMaskBits'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09463068' symbol='_CriticalRegionUsageCount'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='09462F78' symbol='_SavedIMask'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439AF8' name='(_adi_int_CECUnhook, ._adi_int_CECUnhook.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C758' name='_adi_int_CECUnhook'/>
+<REFERENCE symbol_id='0946C938' symbol='_ValidateInterruptManager'/>
+<REFERENCE symbol_id='0946C618' symbol='_CheckIVG'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0954A778' symbol='___memmove2'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C5C8' symbol='_adi_int_ClearIMaskBits'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439998' name='(_adi_int_Terminate, ._adi_int_Terminate.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C9D8' name='_adi_int_Terminate'/>
+<REFERENCE symbol_id='0946C938' symbol='_ValidateInterruptManager'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C758' symbol='_adi_int_CECUnhook'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+</OBJECT>
+<OBJECT id='09439B38' name='(_adi_int_SICDisable, ._adi_int_SICDisable.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946CB18' name='_adi_int_SICDisable'/>
+<REFERENCE symbol_id='0946CC58' symbol='_CheckPeripheralID'/>
+</OBJECT>
+<OBJECT id='09439C18' name='(_adi_int_SICInterruptAsserted, ._adi_int_SICInterruptAsserted.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C7F8' name='_adi_int_SICInterruptAsserted'/>
+<REFERENCE symbol_id='0946CC58' symbol='_CheckPeripheralID'/>
+</OBJECT>
+<OBJECT id='09439A38' name='(_adi_int_GetCurrentIVGLevel, ._adi_int_GetCurrentIVGLevel.end)' section='libssl561y.dlb[adi_int.doj](program)'>
+<SYMBOL id='0946C578' name='_adi_int_GetCurrentIVGLevel'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='09462FC8' symbol='_adi_int_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439F58' name='(.SWITCH.0, .SWITCH.0.end)' section='libssl561y.dlb[adi_flag.doj](constdata)'>
+</OBJECT>
+<OBJECT id='09439CB8' name='(_adi_flag_SetInterruptMask, ._adi_flag_SetInterruptMask.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='094565E8' name='_adi_flag_SetInterruptMask'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+</OBJECT>
+<OBJECT id='09439D38' name='(_adi_flag_GetCallbackEntry, ._adi_flag_GetCallbackEntry.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456C28' name='_adi_flag_GetCallbackEntry'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+</OBJECT>
+<OBJECT id='0943A058' name='(_adi_flag_Toggle, ._adi_flag_Toggle.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456B38' name='_adi_flag_Toggle'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+</OBJECT>
+<OBJECT id='09439F78' name='(_adi_flag_RemoveCallback, ._adi_flag_RemoveCallback.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456598' name='_adi_flag_RemoveCallback'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='09456C28' symbol='_adi_flag_GetCallbackEntry'/>
+<REFERENCE symbol_id='094565E8' symbol='_adi_flag_SetInterruptMask'/>
+<REFERENCE symbol_id='0946C668' symbol='_adi_int_SICGetIVG'/>
+<REFERENCE symbol_id='09456DB8' symbol='_FlagHandler'/>
+<REFERENCE symbol_id='09456DB8' symbol='_FlagHandler'/>
+<REFERENCE symbol_id='0946C758' symbol='_adi_int_CECUnhook'/>
+</OBJECT>
+<OBJECT id='09439E98' name='(_adi_flag_Terminate, ._adi_flag_Terminate.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456778' name='_adi_flag_Terminate'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='09456598' symbol='_adi_flag_RemoveCallback'/>
+</OBJECT>
+<OBJECT id='09439DF8' name='(_adi_flag_Close, ._adi_flag_Close.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456728' name='_adi_flag_Close'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='09456598' symbol='_adi_flag_RemoveCallback'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439D78' name='(_adi_flag_SuspendCallbacks, ._adi_flag_SuspendCallbacks.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456958' name='_adi_flag_SuspendCallbacks'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='094565E8' symbol='_adi_flag_SetInterruptMask'/>
+</OBJECT>
+<OBJECT id='09439CD8' name='(_adi_flag_ResumeCallbacks, ._adi_flag_ResumeCallbacks.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456C78' name='_adi_flag_ResumeCallbacks'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='094565E8' symbol='_adi_flag_SetInterruptMask'/>
+</OBJECT>
+<OBJECT id='0943A038' name='(_adi_flag_SetTrigger, ._adi_flag_SetTrigger.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456D68' name='_adi_flag_SetTrigger'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='09439D58' name='(_adi_flag_InstallCallback, ._adi_flag_InstallCallback.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456A98' name='_adi_flag_InstallCallback'/>
+<REFERENCE symbol_id='09456868' symbol='_adi_flag_ValidateFlagID'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C2F8' symbol='_adi_flag_InstanceData'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='09456D68' symbol='_adi_flag_SetTrigger'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946C668' symbol='_adi_int_SICGetIVG'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='09456DB8' symbol='_FlagHandler'/>
+<REFERENCE symbol_id='09456DB8' symbol='_FlagHandler'/>
+<REFERENCE symbol_id='0946C708' symbol='_adi_int_CECHook'/>
+<REFERENCE symbol_id='0946C7A8' symbol='_adi_int_SICEnable'/>
+<REFERENCE symbol_id='094565E8' symbol='_adi_flag_SetInterruptMask'/>
+</OBJECT>
+<OBJECT id='09439E38' name='(_FlagHandler, ._FlagHandler.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456DB8' name='_FlagHandler'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='09456E08' symbol='_adi_flag_GetInterruptMask'/>
+<REFERENCE symbol_id='09554E58' symbol='_adi_dcb_Post'/>
+</OBJECT>
+<OBJECT id='09439DD8' name='(_adi_flag_GetInterruptMask, ._adi_flag_GetInterruptMask.end)' section='libssl561y.dlb[adi_flag.doj](program)'>
+<SYMBOL id='09456E08' name='_adi_flag_GetInterruptMask'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+<REFERENCE symbol_id='0946D0B8' symbol='_PortInfo'/>
+</OBJECT>
+<OBJECT id='0943A918' name='(_adi_ebiu_SaveConfig, ._adi_ebiu_SaveConfig.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E1FE0' name='_adi_ebiu_SaveConfig'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+</OBJECT>
+<OBJECT id='0943AA98' name='(_adi_ebiu_GetConfigSize, ._adi_ebiu_GetConfigSize.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E18B0' name='_adi_ebiu_GetConfigSize'/>
+</OBJECT>
+<OBJECT id='0943A938' name='(_adi_ebiu_LoadConfig, ._adi_ebiu_LoadConfig.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E2170' name='_adi_ebiu_LoadConfig'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='095374E8' symbol='_adi_ebiu_ApplyConfig'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943ABB8' name='(_adi_ebiu_Terminate, ._adi_ebiu_Terminate.end)' section='libssl561y.dlb[adi_ebiu.doj](program)'>
+<SYMBOL id='094E21C0' name='_adi_ebiu_Terminate'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0946CB18' symbol='_adi_int_SICDisable'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='0945A828' symbol='_adi_ebiu_settings'/>
+<REFERENCE symbol_id='094E1D60' symbol='_adi_ebiu_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='094E1D60' symbol='_adi_ebiu_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='0946C758' symbol='_adi_int_CECUnhook'/>
+</OBJECT>
+<OBJECT id='0943AA58' name='(.epcrodata, .epcrodata.end)' section='libssl561y.dlb[adi_pwr.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943A9F8' name='(.SWITCH.15, .SWITCH.15.end)' section='libssl561y.dlb[adi_pwr.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943B018' name='(0x12,0x14)' section='libssl561y.dlb[adi_pwr.doj](data1)'>
+</OBJECT>
+<OBJECT id='0943AAD8' name='(_ADI_ALLOWED_TRANSITIONS, ._ADI_ALLOWED_TRANSITIONS.end)' section='libssl561y.dlb[adi_pwr.doj](data1)'>
+<SYMBOL id='094E2EE0' name='_ADI_ALLOWED_TRANSITIONS'/>
+</OBJECT>
+<OBJECT id='0943AEF8' name='(_adi_pwr_SelectOptimalSSEL2, ._adi_pwr_SelectOptimalSSEL2.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09545C28' name='_adi_pwr_SelectOptimalSSEL2'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+</OBJECT>
+<OBJECT id='0943ACD8' name='(_adi_pwr_PowerSaving, ._adi_pwr_PowerSaving.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09545A48' name='_adi_pwr_PowerSaving'/>
+<REFERENCE symbol_id='09538758' symbol='___mulli3'/>
+<REFERENCE symbol_id='095381B8' symbol='___divrem_u64'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='09538758' symbol='___mulli3'/>
+<REFERENCE symbol_id='095381B8' symbol='___divrem_u64'/>
+<REFERENCE symbol_id='09538758' symbol='___mulli3'/>
+<REFERENCE symbol_id='09538758' symbol='___mulli3'/>
+<REFERENCE symbol_id='095381B8' symbol='___divrem_u64'/>
+<REFERENCE symbol_id='095381B8' symbol='___divrem_u64'/>
+</OBJECT>
+<OBJECT id='0943AF98' name='(_adi_pwr_GetConfigSize, ._adi_pwr_GetConfigSize.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546D58' name='_adi_pwr_GetConfigSize'/>
+</OBJECT>
+<OBJECT id='0943B078' name='(_adi_pwr_GetPowerMode, ._adi_pwr_GetPowerMode.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546B78' name='_adi_pwr_GetPowerMode'/>
+<REFERENCE symbol_id='094E2620' symbol='_pll_ctl_mmr'/>
+<REFERENCE symbol_id='094E2620' symbol='_pll_ctl_mmr'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2FD0' symbol='_pll_stat_mmr'/>
+<REFERENCE symbol_id='094E2FD0' symbol='_pll_stat_mmr'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09538CA8' symbol='_adi_pwr_PLLProgrammingSequence'/>
+</OBJECT>
+<OBJECT id='0943B098' name='(_adi_pwr_GetPowerSaving, ._adi_pwr_GetPowerSaving.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095468A8' name='_adi_pwr_GetPowerSaving'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09545A48' symbol='_adi_pwr_PowerSaving'/>
+</OBJECT>
+<OBJECT id='0943AD18' name='(_adi_pwr_SaveConfig, ._adi_pwr_SaveConfig.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546678' name='_adi_pwr_SaveConfig'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E1FE0' symbol='_adi_ebiu_SaveConfig'/>
+</OBJECT>
+<OBJECT id='0943B1B8' name='(_adi_pwr_Terminate, ._adi_pwr_Terminate.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095469E8' name='_adi_pwr_Terminate'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546808' symbol='_adi_pwr_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='09546808' symbol='_adi_pwr_CoreBSuppInt0Handler'/>
+<REFERENCE symbol_id='0946C758' symbol='_adi_int_CECUnhook'/>
+<REFERENCE symbol_id='0946CB18' symbol='_adi_int_SICDisable'/>
+</OBJECT>
+<OBJECT id='0943AEB8' name='(_adi_pwr_LoadConfig, ._adi_pwr_LoadConfig.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546718' name='_adi_pwr_LoadConfig'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2170' symbol='_adi_ebiu_LoadConfig'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='095463F8' symbol='_adi_pwr_GetSCLK'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='095459F8' symbol='_adi_pwr_ApplyConfig'/>
+</OBJECT>
+<OBJECT id='0943AD58' name='(_adi_pwr_Reset, ._adi_pwr_Reset.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='095465D8' name='_adi_pwr_Reset'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='095463F8' symbol='_adi_pwr_GetSCLK'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='095459F8' symbol='_adi_pwr_ApplyConfig'/>
+</OBJECT>
+<OBJECT id='0943AE98' name='(_adi_pwr_SetFreq, ._adi_pwr_SetFreq.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546768' name='_adi_pwr_SetFreq'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='09545C28' symbol='_adi_pwr_SelectOptimalSSEL2'/>
+<REFERENCE symbol_id='09545AE8' symbol='_adi_pwr_SelectOptimalMSEL'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='094E2030' symbol='_adi_pwr_cclk_vlev'/>
+<REFERENCE symbol_id='09545AE8' symbol='_adi_pwr_SelectOptimalMSEL'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E31B0' symbol='_vddint_set'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='094E2760' symbol='_adi_pwr_sclk_limits'/>
+<REFERENCE symbol_id='09545BD8' symbol='_adi_pwr_SelectOptimalSSEL1'/>
+<REFERENCE symbol_id='09546C18' symbol='_adi_pwr_SetPLL'/>
+<REFERENCE symbol_id='095459F8' symbol='_adi_pwr_ApplyConfig'/>
+</OBJECT>
+<OBJECT id='0943AFD8' name='(_adi_pwr_AdjustFreq, ._adi_pwr_AdjustFreq.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546AD8' name='_adi_pwr_AdjustFreq'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='095459F8' symbol='_adi_pwr_ApplyConfig'/>
+</OBJECT>
+<OBJECT id='0943AF58' name='(_adi_pwr_SetPowerMode, ._adi_pwr_SetPowerMode.end)' section='libssl561y.dlb[adi_pwr.doj](program)'>
+<SYMBOL id='09546CB8' name='_adi_pwr_SetPowerMode'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546B78' symbol='_adi_pwr_GetPowerMode'/>
+<REFERENCE symbol_id='094E2EE0' symbol='_ADI_ALLOWED_TRANSITIONS'/>
+<REFERENCE symbol_id='094E2EE0' symbol='_ADI_ALLOWED_TRANSITIONS'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09537AD8' symbol='_adi_ebiu_SelfRefreshEnable'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09537AD8' symbol='_adi_ebiu_SelfRefreshEnable'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546998' symbol='_adi_pwr_SyncCoreB'/>
+<REFERENCE symbol_id='09546C68' symbol='_adi_pwr_GetFreq'/>
+<REFERENCE symbol_id='094E1C70' symbol='_adi_ebiu_AdjustSDRAM'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='0946CAC8' symbol='_adi_int_SICGlobalWakeup'/>
+<REFERENCE symbol_id='0946CBB8' symbol='_adi_int_SICWakeup'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09538CA8' symbol='_adi_pwr_PLLProgrammingSequence'/>
+<REFERENCE symbol_id='0946CAC8' symbol='_adi_int_SICGlobalWakeup'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E1C70' symbol='_adi_ebiu_AdjustSDRAM'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='094E32A0' symbol='_adi_pwr_active_config'/>
+<REFERENCE symbol_id='09546BC8' symbol='_adi_pwr_ReleaseCoreB'/>
+</OBJECT>
+<OBJECT id='0943B678' name='(.epcbss, .epcbss.end)' section='libssl561y.dlb[adi_dcb.doj](bsz)'>
+<SYMBOL id='0954B0D8' name='__hCriticalRegionData'/>
+<SYMBOL id='0954AB88' name='_ProcessingTable'/>
+</OBJECT>
+<OBJECT id='0943B5F8' name='(.SWITCH.0, .SWITCH.0.end)' section='libssl561y.dlb[adi_dcb.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943B538' name='(.SWITCH.8, .SWITCH.8.end)' section='libssl561y.dlb[adi_dcb.doj](constdata)'>
+</OBJECT>
+<OBJECT id='0943B4B8' name='(.epcdata, .epcdata.end)' section='libssl561y.dlb[adi_dcb.doj](data1)'>
+<SYMBOL id='0954AC28' name='_SequenceNumber'/>
+<SYMBOL id='0954B1C8' name='_adi_dcb_Manager'/>
+<SYMBOL id='0954AC78' name='_adi_dbc_DispatchCount'/>
+</OBJECT>
+<OBJECT id='0943BB78' name='(_adi_dcb_ValidateHandle, ._adi_dcb_ValidateHandle.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554188' name='_adi_dcb_ValidateHandle'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+</OBJECT>
+<OBJECT id='0943B738' name='(_adi_dcb_Init, ._adi_dcb_Init.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='095542C8' name='_adi_dcb_Init'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+</OBJECT>
+<OBJECT id='0943B698' name='(_adi_dcb_Forward, ._adi_dcb_Forward.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='095540E8' name='_adi_dcb_Forward'/>
+</OBJECT>
+<OBJECT id='0943BAF8' name='(_adi_dcb_RegisterISR, ._adi_dcb_RegisterISR.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554A98' name='_adi_dcb_RegisterISR'/>
+<REFERENCE symbol_id='0946C708' symbol='_adi_int_CECHook'/>
+<REFERENCE symbol_id='0946C758' symbol='_adi_int_CECUnhook'/>
+</OBJECT>
+<OBJECT id='0943B998' name='(_adi_dcb_Open, ._adi_dcb_Open.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554E08' name='_adi_dcb_Open'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0954B2B8' symbol='___udiv32'/>
+<REFERENCE symbol_id='09554048' symbol='_adi_dcb_DispatchCallbacks'/>
+<REFERENCE symbol_id='09554048' symbol='_adi_dcb_DispatchCallbacks'/>
+<REFERENCE symbol_id='09554A98' symbol='_adi_dcb_RegisterISR'/>
+</OBJECT>
+<OBJECT id='0943BB58' name='(_adi_dcb_Post, ._adi_dcb_Post.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554E58' name='_adi_dcb_Post'/>
+<REFERENCE symbol_id='09554188' symbol='_adi_dcb_ValidateHandle'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0954AC28' symbol='_SequenceNumber'/>
+<REFERENCE symbol_id='0954AC28' symbol='_SequenceNumber'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='095540E8' symbol='_adi_dcb_Forward'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='0943BA58' name='(_adi_dcb_Remove, ._adi_dcb_Remove.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='095549F8' name='_adi_dcb_Remove'/>
+<REFERENCE symbol_id='09554188' symbol='_adi_dcb_ValidateHandle'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='0943B578' name='(_adi_dcb_Close, ._adi_dcb_Close.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554908' name='_adi_dcb_Close'/>
+<REFERENCE symbol_id='09554188' symbol='_adi_dcb_ValidateHandle'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='09554048' symbol='_adi_dcb_DispatchCallbacks'/>
+<REFERENCE symbol_id='09554048' symbol='_adi_dcb_DispatchCallbacks'/>
+<REFERENCE symbol_id='09554A98' symbol='_adi_dcb_RegisterISR'/>
+</OBJECT>
+<OBJECT id='0943B658' name='(_adi_dcb_Control, ._adi_dcb_Control.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='095549A8' name='_adi_dcb_Control'/>
+<REFERENCE symbol_id='09554188' symbol='_adi_dcb_ValidateHandle'/>
+<REFERENCE symbol_id='095549A8' symbol='_adi_dcb_Control'/>
+<REFERENCE symbol_id='0954AB88' symbol='_ProcessingTable'/>
+<REFERENCE symbol_id='0954AB88' symbol='_ProcessingTable'/>
+<REFERENCE symbol_id='095549A8' symbol='_adi_dcb_Control'/>
+<REFERENCE symbol_id='095549F8' symbol='_adi_dcb_Remove'/>
+</OBJECT>
+<OBJECT id='0943B7F8' name='(_adi_dcb_DispatchCallbacks, ._adi_dcb_DispatchCallbacks.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554048' name='_adi_dcb_DispatchCallbacks'/>
+<REFERENCE symbol_id='0954AC78' symbol='_adi_dbc_DispatchCount'/>
+<REFERENCE symbol_id='0954AC78' symbol='_adi_dbc_DispatchCount'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C528' symbol='_adi_int_EnterCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+<REFERENCE symbol_id='0946C438' symbol='_adi_int_ExitCriticalRegion'/>
+</OBJECT>
+<OBJECT id='0943BC78' name='(_adi_dcb_Terminate, ._adi_dcb_Terminate.end)' section='libssl561y.dlb[adi_dcb.doj](program)'>
+<SYMBOL id='09554C28' name='_adi_dcb_Terminate'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='0954B1C8' symbol='_adi_dcb_Manager'/>
+<REFERENCE symbol_id='09554908' symbol='_adi_dcb_Close'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+<REFERENCE symbol_id='0954B0D8' symbol='__hCriticalRegionData'/>
+</OBJECT>
+<OBJECT id='0943BE38' name='(0xfe,0x100)' section='libssl561y.dlb[adi_ebiu_asm.doj](L1_code)'>
+</OBJECT>
+<OBJECT id='0943C0B8' name='(___udivdi3, .___udivdi3.end)' section='libdsp561y.dlb[divrem_u64.doj](program)'>
+<SYMBOL id='09538488' name='___udivdi3'/>
+<SYMBOL id='095381B8' name='___divrem_u64'/>
+<SYMBOL id='095380C8' name='__BEGIN__.div_64_32_loop'/>
+<SYMBOL id='09538118' name='__END__.div_64_32_loop'/>
+<SYMBOL id='095382A8' name='__BEGIN__.div_64_64_loop'/>
+<SYMBOL id='09538168' name='__END__.div_64_64_loop'/>
+<REFERENCE symbol_id='095380C8' symbol='__BEGIN__.div_64_32_loop'/>
+<REFERENCE symbol_id='095382A8' symbol='__BEGIN__.div_64_64_loop'/>
+<REFERENCE symbol_id='0953ACD8' symbol='___divrem_u32'/>
+</OBJECT>
+<OBJECT id='0943C3B8' name='(_adi_pwr_PLLProgrammingSequence, ._adi_pwr_PLLProgrammingSequence.end)' section='libssl561y.dlb[adi_pwr_asm.doj](L1_code)'>
+<SYMBOL id='09538CA8' name='_adi_pwr_PLLProgrammingSequence'/>
+</OBJECT>
+<OBJECT id='0943C378' name='(0x82,0x84)' section='libssl561y.dlb[adi_pwr_asm.doj](L1_code)'>
+</OBJECT>
+<OBJECT id='0943CA78' name='(___divrem_u32, .___divrem_u32.end)' section='libdsp561y.dlb[divrem_u32.doj](program)'>
+<SYMBOL id='0953ACD8' name='___divrem_u32'/>
+<SYMBOL id='0953AC88' name='__BEGIN__.quick_loop'/>
+<SYMBOL id='0953AC38' name='__END__.quick_loop'/>
+<SYMBOL id='0953AB48' name='__BEGIN__.full_loop'/>
+<SYMBOL id='0953ABE8' name='__END__.full_loop'/>
+<REFERENCE symbol_id='0953AC88' symbol='__BEGIN__.quick_loop'/>
+<REFERENCE symbol_id='0953AB48' symbol='__BEGIN__.full_loop'/>
+</OBJECT>
+</LINKPROJECT_UNNEEDED_OBJECTS>
+<LINKPROJECT_UNNEEDED_OBJECTS project_id='08194D10' importer_id='08194D10'>
+<OBJECT id='08C5E3B8' name='(_heap_table, ._heap_table.end)' section='.\Debug\LEDButton_heaptab.doj(constdata)'>
+<SYMBOL id='09321E00' name='_heap_table'/>
+<REFERENCE symbol_id='081F9F78' symbol='ldf_heap_space'/>
+<REFERENCE symbol_id='081F9B40' symbol='ldf_heap_length'/>
+</OBJECT>
+<OBJECT id='08C5E178' name='(_dcplbs_table, ._dcplbs_table.end)' section='cplbtab561b.doj(cplb_data)'>
+<SYMBOL id='093222B0' name='_dcplbs_table'/>
+</OBJECT>
+<OBJECT id='08C5E418' name='(_icplbs_table, ._icplbs_table.end)' section='cplbtab561b.doj(cplb_data)'>
+<SYMBOL id='09321950' name='_icplbs_table'/>
+</OBJECT>
+</LINKPROJECT_UNNEEDED_OBJECTS>
+<LINKPROJECT_UNNEEDED_OBJECTS project_id='081942C0' importer_id='081942C0'>
+</LINKPROJECT_UNNEEDED_OBJECTS>
+</DOCUMENT>
